@@ -1,0 +1,405 @@
+```yaml
+# Story World Codex: Primal Mama Quest Walkthrough
+ # Reinterpretation of "From Rannvaig to Arinbjorn"
+
+# Note: Markdown formatting (like **bold**) within string values is preserved as part of the string.
+# Values containing the colon character (:) are  wrapped in quotes as requested.
+# This YAML file incorporates functional analysis based on the Entity Functional Profile Protocol.
+
+PrimalMamaQuest:
+  name: "Mire Expedition: Seeking Family Tech and Local Mysteries" # Quest name ( 8 words)
+  QuestName: "Adapted path encompassing elements of 'The Family Blade' and related ventures"
+  World: "Primal Mama"
+  GuideVersion: "0.2 (Functional Reinterpretation)" # Updated  version for functional analysis
+  LastUpdated: "[Current Date]" # Replace with actual date
+  Author: "[Your Name/Studio Name]" # Replace with actual name
+
+  Introduction:
+    Purpose: >
+      This walkthrough revis its a segment of your journey through the Primal Mama swamps,
+      reinterpreting encounters based on the authenticated **functional profiles** of
+      the entities involved. Moving beyond simple actions, we examine how entities'
+      **capabilities, limitations, vulnerabilities,  and constraints** shape interactions,
+      requiring you to leverage your own **authenticated skills and tools** (like the
+      Spring-Loaded Harpoon Gun's ranged capability or the Bio-Energy Shield's defensive
+      function ) to navigate the mire and pursue the "Family Tech" objective. Understanding
+      these functional properties is key to survival and success in this unique heterocosm.
+    Objective: "Reach Gator's Tooth Landing to continue the investigation  into the whereabouts of the Family Tech."
+
+  WalkthroughSegments:
+    - SegmentTitle: "From Bayou Landing to Gator's Tooth Landing: A Functional Overview" # Value contains ':'
+      Text: >
+        The next  leg of the quest "The Family Tech" necessitates a functional shift from
+        overland traversal to aquatic navigation, leveraging your craft's **authenticated
+        movement capability** on water. While overland routes are functionally impassable
+        due to  high-level threats (entities with combat capabilities exceeding your current
+        functional output), the vast swamp network's waterways offer alternative passages.
+        We'll explore these, interacting with various entities defined by their unique
+        functional profiles .
+
+    - SegmentTitle: "Encounter: Person(s) in Distress (level 12)" # Value contains ':'
+      Text: >
+        Fast-travel back to Bayou Landing and utilize your craft's ** commandeering capability**
+        to obtain a suitable vessel. Skim along the mire's edge westward. Along the shore,
+        you'll find a "Person(s) in Distress" event.
+      Events:
+        -  Type: "Combat & Rescue"
+          ObjectiveText: "Engage the **Swamp Hoods** (level twelve)...Defeat them and loot their remains to acquire a 'Containment Key.' Use it to free an **Artisan**..." 
+          ActionText: "Secure minor loot from containers (objects with a **storage function**) near a landing platform before re-embarking."
+          EntitiesInvolved:
+            - Name: "Swamp Hoods"
+               Function: "Basic combat capabilities, vulnerability to standard physical force."
+            - Name: "Artisan"
+              Function: "Crafting and repair skills, offers future service function."
+          ItemsInvolved:
+            - Name : "Containment Key"
+              Function: "Unlocking specific containment devices."
+          PlayerFunctionUsed:
+            - "Standard Combat Capabilities"
+            - "Looting Function"
+            - "Craft Command Capability"
+            - " Object Use Function (Key)"
+
+    - SegmentTitle: "Encounter: Hidden Cache (level 19)" # Value contains ':'
+      Text: >
+        Skim west to find some small, elevated cays. The skies  here are patrolled by
+        **Skymantas** (level nineteen). These creatures possess **authenticated flight
+        capabilities** and are a significant aerial threat (high combat function). Your
+        **Spring-Loaded Harpoon Gun**'s ** authenticated ranged combat capability** is
+        crucial for initiating engagement by pulling them from the sky (countering their
+        primary mobility function). Dispatch them on land.
+      Events:
+        - Type: "Combat & Exploration"
+          ObjectiveText:  "Proceed to the western-most cay for a 'Hidden Cache' event. Locate waterlogged remains...bearing a 'Storage Key.' Access the cay's northern section via careful platforming...to find the chest, unlocking it with the  key's **keying function** to claim the cache..."
+          ActionText: "" # Objective text sufficiently describes the action
+          EntitiesInvolved:
+            - Name: "Skymantas"
+              Function: "Authenticated flight  capabilities, significant aerial threat (high combat function), vulnerability to ranged attacks countering primary mobility function."
+          ItemsInvolved:
+            - Name: "Spring-Loaded Harpoon Gun"
+              Function: "Authenticated ranged combat capability,  countering primary mobility function of flying creatures."
+            - Name: "Storage Key"
+              Function: "Unlocking a specific storage unit (keying function)."
+            - Name: "Cache Chest"
+              Function: "Storage  function, loot function."
+          PlayerFunctionUsed:
+            - "Craft Command Capability"
+            - "Ranged Combat Capability"
+            - "Exploration Function"
+            - "Climbing/Jumping Skills"
+             - "Object Use Function (Key)"
+            - "Looting Function"
+
+    - SegmentTitle: "Encounter: Contraband Drop(s) (level 13)" # Value contains ':'
+      Text : >
+        Pilot your craft north-east to a "Contraband Drop." These involve submerged
+        chests (objects with **storage function**) anchored by barrels. Access requires
+        diving (your character's **authenticated swimming capability**). ** Gatorfolk
+        Skirmishers** (level thirteen) inhabit these waters. Their **authenticated
+        functional profile** includes basic underwater combat capabilities and a significant
+        **nuisance function**: latching onto and damaging crafts (a **vulnerability **
+        for your vessel). They are, however, easily countered by your Harpoon Gun's
+        **underwater projectile function**. Multiple such drops are available, representing
+        repeated opportunities to engage these low-level aquatic entities  and utilize
+        your looting functions.
+      Note: >
+        Gatorfolk Skirmishers' primary threat lies in their **nuisance/constraint function**
+        against your craft's mobility and integrity. While individually weak, a swarm
+         can overcome your craft's **durability property**, leading to sinking.
+
+    - SegmentTitle: "Quest Arc Initiation: An Ancientsound Horn (level 12)" # Value contains ':'
+      Text: >
+         Skim west to a line of three elevated cays. On the middle one, you meet **Mister
+        Fitzwilliam**, a collector whose **functional role** is that of a quest giver
+        seeking a specific item . He seeks a **Rare Iridescent Chrono-Mussel Pearl**,
+        an object with high **authenticated axiological (value) properties** and a
+        specific **location property**. You encounter **Cattle Cultists** (level fifteen) 
+        here. Their **authenticated functional profile** includes combat capability
+        and their presence is tied to the world's **deontic/axiological modalities**
+        surrounding cattle as artifacts (their **core function/purpose** likely involves
+         guarding or revering cattle/artifacts). Defeat them. Loot a camp (a location
+        with **storage function**) to find a "Ragged Logbook, Entry II" (an object
+        with **information function**)  and an "Ancientsound Horn." Acquiring the horn
+        triggers the quest "An Ancientsound Horn," bypassing an initial notice acquisition
+        step (a different quest start **trigger function**).
+
+    - SegmentTitle: " Quest Item Retrieval: Hidden Cache: Pearls of the Mire (level 13)" # Value contains ':'
+      Text: >
+        Utilize the land bridge/causeway (a location with **traversal function**) to
+        reach the larger cay segment . Head north to a "Hidden Cache" site guarded by
+        **Bayou Raiders** (levels twelve and fourteen), human entities with standard
+        combat **capabilities**. Defeat them and find a wet satchel (object with ** storage
+        function**) containing a "Waterlogged Memo" (object with **information function**,
+        serving as a quest **trigger function** for "Pearls of the Mire"). This quest
+        requires diving (your **swimming capability**) into a specific  inlet. Navigate
+        past where the "Ancientsound Horn" was found and dive to the mire floor. Locate
+        the chest (storage object) containing the **Modified Gator-Fang Blade** (an
+        object with **weapon function ** and specific properties), among other items
+        with **loot function**.
+
+    - SegmentTitle: "Quest Arc Resolution: Rare Iridescent Chrono-Mussel Pearl (level 13)" # Value contains ':'
+      Text: >
+         Return to the central cay and meet Mister Fitzwilliam at the bridge (traversal
+        location). Confirm your agreement to the task (dialogue **interaction function**).
+        Follow him. He delegates the search for the Rare Ir idescent Chrono-Mussel Pearl
+        (item with **collection objective function**) to you. Enter the search area
+        (defined spatial function) and dive. Locate **Chrono-Mussels** (creatures/objects
+         with **storage function** for pearls). Dispatch **Gatorfolk Skirmishers**
+        (nuisance/combat function) to search undisturbed. The pearl is in a specific
+        mussel; searching others yields standard pearls (objects with minor ** value/loot
+        function**).
+      Events:
+        - Type: "Defend NPC & Dialogue"
+          ObjectiveText: "Upon obtaining the pearl, swim ashore. Mister Fitzwilliam is under attack by some **Bog Zombies** ( level twelve)...Dispatch them, then talk to Mister Fitzwilliam..."
+          ActionText: >
+            ...who will reveal that he kinda sorta forgot to bring your reward (a **deontic constraint**
+            on payment fulfillment ). Certainly it was just an oversight. Whatever you say in
+            response to this unwelcome revelation, he'll promise to pay you back in Beetriot at
+            **The Polished Alligator** (a location with a specific **social/ economic function**).
+            This concludes the immediate objective but leaves a future interaction pending (delayed
+            **quest resolution function**).
+          EntitiesInvolved:
+            - Name: "Mister Fitzwilliam"
+              Function: "Quest giver , vulnerable NPC, subject to deontic constraint on payment fulfillment."
+            - Name: "Bog Zombies"
+              Function: "Basic combat functions, likely vulnerabilities to standard attacks/signs."
+          LocationsInvolved:
+            -  Name: "Beetriot"
+              Function: "Location functioning as a social/economic hub with specific establishments."
+            - Name: "The Polished Alligator"
+              Function: "Location with specific social/economic function (fancy establishment,  potentially displays cattle)."
+          PlayerFunctionUsed:
+            - "Swimming Capability"
+            - "Combat Capability"
+            - "Dialogue Interaction Function"
+          Rewards:
+            - Description: "For giving Mister Fitzwilliam a Rare Ir idescent Chrono-Mussel Pearl"
+              Value: "XP Varies"
+            - Description: "For talking to Mister Fitzwilliam in Beetriot"
+              Value: "10 Crowns" # Fixed Coin Reward Function
+
+    -  SegmentTitle: "Hub Location: Gator's Tooth Landing" # Value contains ':'
+      Text: >
+        Proceed south to Gator's Tooth Landing, a settlement functioning as a **social/economic
+        hub**. Access the  **Community Board** (object with **information/quest trigger
+        function**) to find "Contract: The Bound Spirit of Tempus Cay," initiating a new
+        quest (using its **trigger function**). Meet **Artisan Sig urd, the Retro-Fitter**,
+        an entity with crafting/repair **functional expertise** and a distinct **axiological
+        affiliation** (fan of Jerry Reed). He also participates in **Gator-Chips** (a 
+        game system with defined rules/pieces).
+      Note: >
+        The Innkeeper here functions as a vendor (providing **commerce function**), selling
+        specific **Gator-Chips** (objects with game piece and potential  crafting material
+        **functions**). These chips represent various world entities (Automatons, Swamp
+        Witches, Bog Zombies, Giant Gators) and possess defined **functional properties**
+        within the Gator-Chips game system (e.g., Strength property , "Muster" capability,
+        "Scouting" capability).
+
+    - SegmentTitle: "Contract: The Bound Spirit of Tempus Cay (level 17)" # Value contains ':'
+      Text: "" # Text  moved into events for functional breakdown
+
+      Events:
+        - Type: "Dialogue & Quest Trigger"
+          ObjectiveText: "Head into the local watering hole...accosted by some **Swamp Purists**...Another local named **Swamp Elder  Jedidiah** will defuse the situation, then offer to talk about the contract."
+          ActionText: >
+            Indulge him and he'll tell you about their troubles. Mysterious temporal fog, a
+            malfunctioning chrono-relay , specters... typical stuff for a Mirewalker. Barter
+            for more coin (or not) then accept the quest.
+          EntitiesInvolved:
+            - Name: "Swamp Purists"
+              Function:  "Aggressive combat capabilities, xenophobic social function."
+            - Name: "Swamp Elder Jedidiah"
+              Function: "Local entity with social mediation and quest information/trigger function."
+          LocationsInvolved:
+             - Name: "Local watering hole"
+              Function: "Location with social/gathering function."
+          ItemsInvolved:
+            - Name: "Contract: The Bound Spirit of Tempus Cay"
+              Function: " Quest trigger/information function."
+          PlayerFunctionUsed:
+            - "Dialogue Interaction Function"
+            - "Quest Acceptance Function"
+            - "Bartering Function"
+
+        - Type: "Commerce (Optional)"
+          ObjectiveText : "Be sure to talk to the Innkeeper, as he...sells some useful items..."
+          ActionText: "Purchase items."
+          EntitiesInvolved:
+            - Name: "Innkeeper"
+              Function: "Vendor, provides commerce  function, game participant."
+          ItemsInvolved:
+            - Name: "Automaton Schematic Chip"
+              Function: "Game piece function (Scouting), potential crafting material function."
+            - Name: "Swamp Witch Token"
+               Function: "Game piece function (6 Strength, Muster), potential crafting material function."
+            - Name: "Bog Zombie Emblem"
+              Function: "Game piece function (6 Strength), potential crafting material function."
+            - Name: " Giant Gatortooth Fragment"
+              Function: "Game piece function (4 Strength, Muster), potential crafting material function."
+          PlayerFunctionUsed:
+            - "Commerce Interaction Function"
+
+        - Type: "Exploration  & Investigation"
+          ObjectiveText: >
+            Return north...skim to the northernmost...or do your best to make your way across
+            hazardous floating walkways...Reach the temporal fog...fight off some **Bayou Specters**... 
+            continue north...two sets of remains you can investigate...Make your way north until
+            you find a house...knock on the door. **Mikhail, the keeper of the Chrono-Relay** will
+            open the door and tell  you what little he knows before giving you a **Relay Access Key**.
+          ActionText: "" # Objective text sufficiently describes the action
+          EntitiesInvolved:
+            - Name: "Bayou Specters"
+              Function:  "Spectral entities with combat capabilities, vulnerability to buffed attacks."
+            - Name: "Mikhail, the keeper of the Chrono-Relay"
+              Function: "Information-providing dialogue function, provides access key." 
+          ItemsInvolved:
+            - Name: "Spectral Inhibitor Slurry"
+              Function: "Consumable object with buff function against specters."
+            - Name: "Relay Access Key"
+              Function : "Object with access function for the relay."
+            - Name: "Sets of remains"
+              Function: "Information objects."
+          LocationsInvolved:
+            - Name: "Tempus Cay"
+              Function:  "Elevated cay location with temporal fog environmental state."
+            - Name: "Hazardous floating walkways"
+              Function: "Locations with traversal function and potential hazard constraint."
+            - Name: "Temporal fog"
+              Function : "Environmental state with hazard/specter spawning functions."
+            - Name: "Mikhail's house"
+              Function: "Location containing NPC and associated notes/respawn points."
+          PlayerFunctionUsed:
+            -  "Craft Command Capability"
+            - "Traversal Function"
+            - "Combat Capability"
+            - "Investigation Function"
+            - "Dialogue Interaction Function"
+            - "Object Use Function (Slurry, Key)"
+          Rewards: 
+            - Description: "For checking in on Mikhail"
+              Value: "25 XP" # Experience Point Reward Function
+          Note: >
+            If you want to grind Bayou Specters, this is a good place to do it.  They'll
+            respawn around Mikhail's house—two to the south and two to the north—each
+            time you rest. Bayou Specters often drop **Spectral Residue, Temporal Mist,
+            Bio-Lum  Dust,** and **Calamity Crystal Shards**. Much of this sells well,
+            and Spectral Residue can be used to create **Analog Modules**.
+
+        - Type: "Structure Investigation"
+          ObjectiveText: > 
+            Continue north along the path and deeper into the fog...find the 'Chrono-Relay Structure'...
+            Enter the relay structure...Search some furniture...find 'Mikhail's Concealed Directive.'
+            Read it...leave  the relay structure and search the exterior...identify what haunts this place—and why.
+            Seems like we're going to have another chat with Mikhail.
+          ActionText: "" # Objective text sufficiently describes the action
+          Items Involved:
+            - Name: "Chrono-Relay Structure"
+              Function: "Location with quest objective function, contains lore items."
+            - Name: "Mikhail's Concealed Directive"
+               Function: "Information/lore function, impacts NPC's narrative/functional role."
+          PlayerFunctionUsed:
+            - "Traversal Function"
+            - "Investigation Function"
+            - "Reading Function"
+            - "Dialogue Interaction Preparation "
+          Rewards:
+            - Description: "For discovering the nature of the Bound Spirit of Tempus Cay"
+              Value: "25 XP" # Experience Point Reward Function
+
+        - Type: "Boss Combat & State  Change"
+          ObjectiveText: >
+            Be sure to have **Spectral Inhibitor Slurry** applied to your blade, then return to Mikhail's
+            house and talk to the dishonest relay operator...convince him to go...as Mikhail predicted
+             the **Bound Spirit** shows up and attacks. You decide to hold the specter's attention while
+            Mikhail goes to activate the relay...
+          ActionText: >
+            The Bound Spirit is highly resistant to  damage at first (a significant **constraint/vulnerability**
+            to standard attacks)...use your **Bio-Energy Shield** (an item/ability with **defensive function**)
+            and try to stay away...Once in a while it'll  split into a quartet of **Bayou Specters**...
+            Repeat the process...slaying its lesser Specters until the chrono-relay is active (achieving
+            a required **state change function**), nullifying its resistance (** vulnerability trigger**).
+            Once vulnerable, defeat it (utilizing your core combat **capabilities**). Once it's banished,
+            loot it for the **Penitent's Bio-Blade** and the **Bound Spirit's  Temporal Signature**. After
+            you claim your artifact, Mikhail (character with dialogue/outcome **function**) will come check
+            on the situation. Decide whether to let him stay around, or force him to leave the cay (player
+            choice **functional  outcome**).
+          EntitiesInvolved:
+            - Name: "The Bound Spirit"
+              Function: "Primary antagonist, spectral entity with combat capabilities, high initial resistance (constraint/vulnerability), capability to split into lesser entities , resistance nullified by state change function."
+            - Name: "Bayou Specters"
+              Function: "Lesser spectral entities with combat capabilities."
+            - Name: "Mikhail"
+              Function: "Character  with dialogue/outcome function, performs state change action (activates relay)."
+          ItemsInvolved:
+            - Name: "Spectral Inhibitor Slurry"
+              Function: "Consumable object with buff function."
+             - Name: "Bio-Energy Shield"
+              Function: "Item/ability with defensive function."
+            - Name: "Penitent's Bio-Blade"
+              Function: "Object with weapon function (unique loot)." 
+            - Name: "Bound Spirit's Temporal Signature"
+              Function: "Unique object/artifact with potential future functional use, loot function."
+          LocationsInvolved:
+            - Name: "Mikhail's  house"
+              Function: "Location for combat encounter."
+            - Name: "Chrono-Relay"
+              Function: "Object/mechanism requiring activation (state change function)."
+          PlayerFunctionUsed:
+            -  "Dialogue Persuasion Function"
+            - "Combat Capability"
+            - "Defensive Capability (Bio-Energy Shield)"
+            - "Object Use Function (Slurry)"
+            - "Looting Function"
+            -  "Player Choice Function"
+          Rewards:
+            - Description: "For slaying the Bound Spirit"
+              Value: "260 XP" # Experience Point Reward Function
+            - Description: "" # Empty description from source
+               Value: "184 Crowns" # Coin Reward Function
+
+        - Type: "Dialogue, Combat & Consequence"
+          ObjectiveText: >
+            Head to the Tempus Cay signpost and fast-travel back to the Gator' s Tooth Landing, then head
+            into the local watering hole and talk to Swamp Elder Jedidiah, and proclaim a job well done.
+            Jedidiah grants you your coin, and all is well. As you go to  leave, however, the two rude
+            **Swamp Purists** from before will return and try to pick a fight. Whatever you say, a fight
+            ensues - with Jedidiah supporting you. As you and Jed idiah gain the upper hand...the two
+            miscreants will resort to steel. Respond in kind, then check on Jedidiah. When you're done
+            talking...you'll find yourself embroiled in the quest ' Outsider in the Mire'.
+          ActionText: >
+            Leave the local watering hole and you'll be confronted by some angry locals...Faced with
+            overwhelming numbers (a **constraint/impossibility** of successful combat), you  utilize the
+            **submission function** (a player choice leading to incarceration). This places you under the
+            judgment of **Bayou Justice Silas** (an entity with an **authenticated judicial/authority function**).
+          EntitiesInvolved :
+            - Name: "Swamp Elder Jedidiah"
+              Function: "Dialogue interaction function, quest completion function, support function in combat."
+            - Name: "Swamp Purists"
+              Function: " Hostile entities with aggressive interaction and combat functions."
+            - Name: "Bayou Justice Silas"
+              Function: "Entity with authenticated judicial/authority function."
+          LocationsInvolved:
+            - Name: "Tempus Cay signpost" 
+              Function: "Fast-travel function location."
+            - Name: "Gator's Tooth Landing"
+              Function: "Social/economic hub location."
+            - Name: "Local watering hole"
+              Function : "Location for social/combat encounter."
+          PlayerFunctionUsed:
+            - "Fast-Travel Function"
+            - "Dialogue Interaction Function"
+            - "Combat Capability"
+            - "Submission Function (Player Choice)" 
+          Rewards:
+            - Description: "For submitting to the citizens of Gator's Tooth Landing"
+              Value: "XP Varies" # Variable Experience Point Reward Function
+
+  Conclusion:
+    Text: >
+      Your pursuit of  the Family Tech, guided by adapting to the mire's unique functional
+      landscape and interacting with entities based on their capabilities and limitations,
+      has culminated in a legal predicament at Gator's Tooth Landing. The next quest,
+      "Out sider in the Mire," will functionally test your ability to navigate the social
+      and deontic (rule-based) constraints of Primal Mama's swamp society, potentially
+      requiring different skills and strategies than those used in combat  or exploration.
+```

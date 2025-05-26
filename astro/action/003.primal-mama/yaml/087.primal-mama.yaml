@@ -1,0 +1,99 @@
+Okay, here is the YAML conversion of the Event Analysis Markdown document, structured to reflect the analysis points and ensuring values containing colons are quoted, using the Entity Functional Profile Protocol as the framework context  for the document's content.
+
+```yaml
+title: "Story World Codex: Event Analysis (Functional Lens)"
+world: "Primal Mama"
+codex_version: "1.0 - Event Functional Analysis"
+last _updated: "[Current Date]"
+based_on: "Story World Codex: Entity Functional Profile Protocol, Primal Mama Recontextualized Quest Flow (YAML)"
+
+introduction:
+  - "This document analyzes key early events within the Whiskey Sl ough region of the Primal Mama heterocosm, framing them through the lens of the **authenticated functional properties** of the entities involved. Each event sequence is viewed as a series of interactions where characters, objects, creatures, and systems **demon strate their capabilities, encounter limitations, leverage skills, and expose vulnerabilities** as defined by the world's established modalities and entity profiles. This approach highlights how the dynamic potential of individual entities drives narrative progression and world interaction."
+
+analysis_sections:
+  - title : "Event Sequence Analysis: Whiskey Slough Encounters"
+    type: "event_analysis_list"
+    events:
+      - event_id: 1
+        name: "Bayou Brawl & The Loresmith Challenge"
+         entities_involved:
+          - "Player Character (`CHAR_Player_01`)"
+          - "Loresmith (`CHAR_Loresmith_01`)"
+          - "Bayou Brawl Game System (`SYS _BayouBrawl`)"
+          - "Bayou Brawl Cards (`OBJ_Card_XXXX`)"
+          - "Tavern Owner (`CHAR_TavernOwner_01`)"
+        authenticated_functions _demonstrated:
+          - "`CHAR_Player_01`: `SKL-PLAYER-01` (Bayou Brawl Skill - demonstrated potential for high proficiency), `FUNC-PLAYER-01` (Interaction Capability - engaging L oresmith), `FUNC-PLAYER-02` (Movement/Navigation Capability)."
+          - "`CHAR_Loresmith_01`: `SKL-LORES-01` (Bayou Brawl Skill - demonstrated low proficiency), `FUNC- LORES-01` (Dialogue Capability), `FUNC-LORES-02` (Challenge Capability - initiating game)."
+          - "`SYS_BayouBrawl`: `FUNC-BB-01` (Game Execution  Capability - running rounds, resolving strength), `CONSTRAINT-BB-01` (Draw Limitation), `CONSTRAINT-BB-02` (Passing Rule), `CONSTRAINT-BB-03` (Win Condition)."
+          - "` OBJ_Card_XXXX`: `FUNC-CARD-01` (Strength Property), `FUNC-CARD-02` (Special Ability Property - e.g., `FUNC-CARD-SL01` Swarm Link)." 
+          - "`CHAR_TavernOwner_01`: `FUNC-TO-01` (Merchant Capability - selling cards), `OBJ_Card_XXXX` (Inventory Property)."
+        narrative_function_analysis :
+          - "This sequence primarily functions as a tutorial for the Bayou Brawl system, allowing the player to utilize their `SKL-PLAYER-01` and learn the `CONSTRAINT-BB-01/02` rules . The Loresmith's low `SKL-LORES-01` ensures the player can likely succeed early. The interaction introduces the `FUNC-TO-01` (Merchant Capability) of the Tavern Owner as a  method for the player to enhance their card `OBJ_Card_XXXX` inventory and potential in the game."
+
+      - event_id: 2
+        name: "Juke Joint Thug Confrontation"
+        entities_ involved:
+          - "Player Character (`CHAR_Player_01`)"
+          - "Swamp Thugs (`NPC_Thug_Swamp_XX`)"
+          - "Swamp Charm (`MAGIC_Sw ampCharm`)"
+        authenticated_functions_demonstrated:
+          - "`CHAR_Player_01`: `FUNC-PLAYER-03` (Combat Capability - fisticuffs), `SKL-PLAYER-02 ` (Swamp Charm Proficiency - optional use), `FUNC-PLAYER-01` (Interaction Capability - dialogue choices)."
+          - "`NPC_Thug_Swamp_XX`: `FUNC-THUG-01`  (Combat Capability - fisticuffs), `VULN-THUG-01` (Vulnerability to Swamp Charm - if used)."
+          - "`MAGIC_SwampCharm`: `FUNC-SC-01` ( Subduing Effect - upon successful application to `VULN-THUG-01`)."
+        narrative_function_analysis:
+          - "This sequence immediately tests the player's basic `FUNC-PLAYER-03 ` (Combat Capability). It also introduces and allows the optional use of `MAGIC_SwampCharm`, demonstrating its `FUNC-SC-01` (Subduing Effect) and highlighting a potential `VULN-THUG -01` (Vulnerability) present in certain enemy types, rewarding the player for leveraging this specific functional advantage."
+
+      - event_id: 3
+        name: "Exploring Whiskey Slough & Resource Gathering"
+         entities_involved:
+          - "Player Character (`CHAR_Player_01`)"
+          - "Environment (`LOC_Swamp_XX`)"
+          - "Containers (`OBJ_Container_XX`)"
+           - "Herbs (`RESOURCE_Herb_Swamp`)"
+          - "Huckster (`CHAR_Huckster_01`)"
+          - "Community Post (`OBJ_CommunityPost_01`)"
+           - "Undiscovered Locations (`LOC_Undiscovered_XX`)"
+        authenticated_functions_demonstrated:
+          - "`CHAR_Player_01`: `FUNC-PLAYER-02` (Movement/ Exploration Capability), `FUNC-PLAYER-04` (Looting/Gathering Capability), `FUNC-PLAYER-01` (Interaction Capability - with Huckster, Post), `SKL-PLAYER-03`  (Survival/Resource Management Skill)."
+          - "`LOC_Swamp_XX`: `FUNC-SWAMP-01` (Resource Providing Function - herbs, containers), `FUNC-SWAMP-02` (Hazardous  Environment Function - presence of threats like Mire Horrors)."
+          - "`OBJ_Container_XX`: `FUNC-CONTAINER-01` (Storage Function - provides items upon interaction/looting)."
+          - "`RESOURCE_ Herb_Swamp`: `FUNC-HERB-01` (Gatherable Resource Function), `FUNC-HERB-02` (Alchemy/Selling Function)."
+          - "`CHAR_Huckster_01`:  `FUNC-HUCKSTER-01` (Merchant Capability - selling goods, especially gear/schematics), `OBJ_Gear_XXXX` (Inventory Property)."
+          - "`OBJ_CommunityPost_01`: `FUNC -CP-01` (Information Dissemination Function - updating map), `FUNC-CP-02` (Quest Giving Function - providing leads)."
+          - "`LOC_Undiscovered_XX`: `FUNC-UL -01` (Challenge/Threat Function - guarding resources), `FUNC-UL-02` (Reward Function - providing loot/XP)."
+        narrative_function_analysis:
+          - "This phase establishes the core  loop of `FUNC-PLAYER-02` (Exploration), `FUNC-PLAYER-04` (Resource Gathering) from the `LOC_Swamp_XX` (Environment's Resource Function), and `SKL- PLAYER-03` (Survival/Resource Management). It demonstrates the `FUNC-HUCKSTER-01` (Merchant Capability) for resource exchange (Orens for goods) and introduces the `OBJ_CommunityPost_01 ` (Information/Quest Function) to guide further player `FUNC-PLAYER-02` (Exploration) towards `LOC_Undiscovered_XX` (Functional locations)."
+
+      - event_id: 4
+         name: "Twisted Chronometer Investigation & Resolution"
+        entities_involved:
+          - "Player Character (`CHAR_Player_01`)"
+          - "Gearhead (`CHAR_Gearhead_01`)" 
+          - "Workshop (`LOC_Workshop_01`)"
+          - "Enhancement Rig (`OBJ_EnhanceRig_01`)"
+          - "Beau (`CHAR_Beau_01`)"
+           - "Bayou Sense (`FUNC-PLAYER-05`)"
+          - "Evidence (`OBJ_Evidence_XX`)"
+          - "Mire Horrors (`CREATURE_MireHorror_XX`)"
+           - "Chronometer (`OBJ_Chronometer_XX`)"
+          - "Beetriot Enforcers (`ORG_BeetriotEnforcers`)"
+        authenticated_functions_demonstrated:
+          - "` CHAR_Player_01`: `FUNC-PLAYER-01` (Interaction Capability - dialogue with Gearhead, Beau), `SKL-PLAYER-04` (Investigation Skill), `FUNC-PLAYER-05` ( Bayou Sense Capability), `FUNC-PLAYER-03` (Combat Capability - fisticuffs option), `SKL-PLAYER-02` (Swamp Charm Proficiency - optional use), `FUNC-PLAYER-02`  (Movement/Tracking Capability), `FUNC-PLAYER-06` (Accessing Workshop Functions)."
+          - "`CHAR_Gearhead_01`: `FUNC-GEAR-01` (Quest Giving Function), `FUNC -GEAR-02` (Workshop Function - Repair, Craft, Dismantle, Sell)."
+          - "`LOC_Workshop_01`: `FUNC-WORK-01` (Locale for Gearhead Functions)."
+           - "`OBJ_EnhanceRig_01`: `FUNC-RIG-01` (Gear Enhancement Function - buffing)."
+          - "`CHAR_Beau_01`: `FUNC-BEAU-01` ( Dialogue Capability - confession), `FUNC-BEAU-02` (Combat Capability - fisticuffs option), `CONSTRAINT-BEAU-01` (Physical Constraint - injury/intoxication), `VULN-BE AU-01` (Vulnerability to Swamp Charm)."
+          - "`FUNC-PLAYER-05` (Bayou Sense): `FUNC-BS-01` (Evidence Detection Function)."
+          - "`OBJ_Evidence _XX`: `FUNC-EVID-01` (Information-Bearing Function - provides clues to `SKL-PLAYER-04`)."
+          - "`CREATURE_MireHorror_XX`: `FUNC- MH-01` (Combat Capability - threat), `FUNC-MH-02` (Environmental Impact Function - causing injury/loss)."
+          - "`OBJ_Chronometer_XX`: `FUNC-CHRONO-0 1` (Personal Time/Location Tracking Function - lost state impacts `CHAR_Beau_01`)."
+          - "`ORG_BeetriotEnforcers`: `FUNC-BE-01` (Enforcement/App rehension Function - triggered by resolution outcome)."
+        narrative_function_analysis:
+          - "This sequence tests the player's `SKL-PLAYER-04` (Investigation Skill) utilizing the `FUNC-PLAYER -05` (Bayou Sense Capability) to interact with `OBJ_Evidence_XX` (Information-Bearing Entities). Following the trail leverages `FUNC-PLAYER-02` (Movement/Tracking) and exposes `CHAR_ Beau_01`'s `CONSTRAINT-BEAU-01` (Physical Constraint) caused by interaction with `CREATURE_MireHorror_XX` (Environmental Threat Function). The confrontation with Beau presents a choice utilizing  different `FUNC-PLAYER-03` (Combat Capability) or `SKL-PLAYER-02` (Swamp Charm Proficiency) options, each leading to a resolution that impacts `CHAR_Gearhead_01`' s `FUNC-GEAR-02` (Workshop Function) availability and triggers the `ORG_BeetriotEnforcers` `FUNC-BE-01` (Enforcement Function) based on the player's action . Finally, accessing the workshop allows the player to utilize its various defined `FUNC-GEAR-02` capabilities (repair, craft, etc.)."
+
+conclusion:
+  - title: "Conclusion: Functional Interplay in Narrative "
+  - content:
+    - "As demonstrated by these early events, the narrative in Primal Mama unfolds through the dynamic **interplay of entity functions**. The Player Character's various capabilities and skills (combat, investigation, social  interaction, specific abilities like Bayou Sense or Swamp Charm) are tested and utilized against the capabilities, constraints, and vulnerabilities of other entities (NPCs, creatures, objects, environmental features). Accessing functional locations (Workshop, Community Post) or  utilizing functional items (Bayou Brawl cards, Enhancement Rig) provides resources, information, or strategic advantages, driving the plot and deepening the player's interaction with the coherent functional reality of the world."
+```

@@ -1,0 +1,148 @@
+
+# Story World Quest Data: Primal Mama - Seeking Enhanced Erpenthrope Weave
+
+Investigation:
+  name:  "Seeking Enhanced Erpenthrope Weave"
+  suggested_mastery_level: 17
+  description: |
+    We've navigated the treacherous Bayou paths and dealt with more Feral GE Alligators than  we care to count, pushing us near Mastery Level 20. Our current Standard Issue Security Gear, perhaps with some early bio-mods, has held up, but the unique threats of the deeper swamp require something more specialized. We' re hearing whispers of "Erpenthrope Weave" diagrams – legendary gear said to incorporate the resilience and power of the Beast Men themselves. Specifically, diagrams for the Enhanced Erpenthrope Gauntlets, Enhanced Erpenthrope  Trousers, Superior Erpenthrope Silvered Blade (for spectral/altered threats), Erpenthrope Composite Blade (for physical threats), Enhanced Erpenthrope Composite Blade, and the standard Erpenthrope Silvered Blade  are rumored to be hidden in a dangerous, forgotten corner of the world. This section details acquiring that rare gear... and maybe picking up some intel along the way. Based on recovered fragments, we should already possess the diagrams for the Enhanced Er penthrope Gauntlets, the Enhanced Erpenthrope Trousers, the Superior Erpenthrope Silvered Blade, the Erpenthrope Composite Blade, the Enhanced Erpenthrope Composite Blade and the Erpenthrope Silver ed Blade.
+  starting_point:
+    signpost: "Gator Green Landing"
+    area: "Near Reynolds' Rise (Beetriot fringes/Lickskillet hub)"
+  initial_navigation:
+     - action: "Fast-travel to the 'Gator Green Landing' signpost."
+    - action: "Head west across elevated walkways."
+    - action: "Go down ramps to the north."
+    - action : "Turn west and go down another set of ramps."
+    - action: "Continue west along reedy banks."
+    - action: "Find mud ramp going down to the north."
+    - action: "When ramp  ends, head down rusted stairs to the south."
+    - action: "Move downhill past moss-covered concrete structures."
+    - action: "When structures ends, turn south-west." # Corrected 'ends' typo based  on source
+    - action: "Head around western side of derelict buildings to the north."
+    - action: "Path terminates at a submerged platform edge."
+    - action: "Drop down onto the platform."
+    - action : "Continue north, then north-east, navigating murky water."
+    - action: "Find a concealed entrance (old flood control system/research bunker)."
+  location:
+    entrance:
+      description: "A concealed  entrance, likely an old, half-flooded pre-calamity flood control system or research bunker."
+      initial_passage:
+        navigation:
+          - action: "Enter the passage and venture south-east."
+        obstacles:
+           - name: "Spectral Barrier"
+            description: "A shimmering spectral barrier blocking passage (or illusion of solid debris)."
+            solution: "Use Spectral Harmonizer gadget or perform minor ritual."
+            authentication: "Auth:  Modality - Spectral Interaction, Epistemic - Ritual Knowledge"
+        path_description: "Follow linear path through dripping tunnels."
+        effect: "Area treated as a 'contained anomaly', causing sluggish movement due to dense, charged  atmosphere."
+        effect_auth: "Auth: Synchronic Coherence - Global States"
+      main_chamber:
+        description: "A large chamber."
+        enemies:
+          - name: "Security Automaton" 
+            mastery_level: 14
+            description: "A clunky, 1970s-aesthetic construct patrolling."
+            authentication: "Auth: Modality - Tech Aesthetic Constraint, Entity - Automaton  Functional Profile"
+        exits:
+          - direction: "South"
+            description: "Tunnel"
+          - direction: "North-East"
+            description: "Tunnel"
+          - direction: "South- West"
+            description: "Heavily reinforced hatch (locked)"
+    southern_passage:
+      name: "The Southern Passage"
+      navigation:
+        - action: "Head down the southern passage."
+       obstacles:
+        - name: "Weak Bio-Paneling/Rusted Door"
+          description: "A weak section of bio-paneling or rusted door."
+          solution: "Use Aard (or equivalent focused bio -tech blast)."
+      path_description: "Go through the hole, continue south-west down broken ground."
+      area_reached: "Stagnant water with submerged chest."
+      water_area:
+        actions :
+          - action: "Swim to the southern bank."
+          - action: "Climb up a metal grating ramp."
+        chamber_reached:
+          description: "A small chamber."
+          hazards:
+             - name: "Toxic Swamp Flora"
+              description: "Patches of glowing, toxic swamp flora."
+              avoid_action: "Avoid."
+              authentication: "Auth: Synchronic Coherence - Entity Properties vs.  World Laws"
+          enemies:
+            - name: "Malevolent Echo"
+              mastery_level: 7
+              description: "A lingering spectral manifestation."
+              authentication: "Auth: Entity - Ghost Functional Profile , Modality - Spectral Interaction"
+          loot:
+            - name: "Chest"
+              location: "Along the southern end of the chamber."
+            - name: "Invoice for a Security Automaton"
+              type : "Note"
+              location: "Near the chest."
+              authentication: "Auth: Loot - Authenticated Note Content"
+    north_eastern_passage:
+      name: "The North-Eastern Passage"
+       navigation:
+        - action: "Head down the north-eastern passage."
+        - action: "Passage turns south-east, then south."
+        - action: "Scale rusted ledges and gantries."
+         - action: "Continue south."
+        - action: "Turn east and head through a reinforced doorway."
+      reinforced_doorway_area:
+        inscription:
+          text: "Look to the depths to be lifted up ."
+          location: "Faded words on a reinforced concrete section."
+          notes: "Cryptic."
+          authentication: "Auth: Narrative Clue"
+        further_path: "Continue east."
+        area_ reached: "Remnants of a pre-calamity structure or shrine."
+        structure_area:
+          enemies:
+            - name: "Malevolent Echo"
+              mastery_level: 7
+              description : "Another lingering spectral manifestation."
+              authentication: "Auth: Entity - Ghost Functional Profile, Modality - Spectral Interaction"
+          loot:
+            - name: "Research Notes"
+              type: "Note"
+               location: "Along the north-western ring of the structure's base."
+              authentication: "Auth: Loot - Authenticated Note Content"
+            - name: "Mysterious Recipe"
+              type: "Note"
+               location: "South-west of the structure on a discarded crate."
+              authentication: "Auth: Loot - Authenticated Note Content"
+          notes_read_summary: "Discover researchers (rogue bio-engineers,  early Erpenthropes, Swamp Witches?) were researching Calamity Gaters (Feral GE Alligators)."
+          notes_read_auth: "Auth: Epistemic - Research Notes content, Entity - Feral  GE Alligators/Calamity Gaters"
+          puzzle:
+            name: "Statue Puzzle"
+            description: "Several weathered statues and chunky 1970s-style levers around the outside of the ruins."
+            stat ues_depicted:
+              - "Burt Reynolds"
+              - "Jerry Reed"
+              - "Gram Parsons"
+            statues_auth: "Auth: Modality - Axiological - Deified Celebrities" 
+            goal: "Manipulate levers to pivot statues until all face towards the interior of the structure's base."
+            solution: "Flip each lever repeatedly (most need two activations, one needs none)."
+            puzzle_auth : "Auth: Narrative Puzzle - Recontextualized"
+            puzzle_completion_effect: "Section of reinforced floor rolls back, revealing pool below."
+          pool_area:
+            description: "Pool of murky water below ."
+            actions:
+              - action: "Dive in."
+            enemies:
+              - name: "Calamity Gaters"
+                mastery_level: 10
+                count: 3
+                 description: "Feral GE Alligators."
+                combat_action: "Deal with using aquatic bio-weapon or crossbow."
+                authentication: "Auth: Entity - Calamity Gaters, Narrative Combat"
+            underwater _loot:
+              - name: "Laboratory Key"
+                type: "Key Item"
+                location: "At the bottom, to the east."
+                authentication: "Auth: Loot - Key Item"

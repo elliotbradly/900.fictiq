@@ -1,0 +1,51 @@
+ 
+#  Story World Codex: Primal Mama Reimagined Quests
+
+Pyres_ of_Gator_Gras:
+  title: "Pyres of Gator- Gras: From City to Swamp"
+  description: "It's time to drum up business, but some folks from Gator-Gras (Be etriot) are making things hot. Better to fix their problems before they get in the way, ya dig?"
+
+  Gator_Gras_Hier arch_Square:
+    title: "Gator-Gras Hierarch Square (Beetriot Center)"
+    description: "Head to Gator-Gras Hierarch Square, the biggest place in Beetriot's city center. When you  arrive, you'll see some 'Gator-Gras Eternal Flame' types givin' good ol' reptile meat a *bad* name...Burnin' it for some kinda ritual? These city-folk... After the,  uh, \"ceremony,\" do some business. There's a solar-punk mechanic, a 'mater-healer, and a gator-scale armorer."
+    items:
+      - description: "The armorer is sellin' \"Clete Purvis's Lost Blueprints,\" startin' \" Scavenger Hunt: 'Gatorback Armor Upgrade Diagrams - Part 3: Lickskillet Edition.'\""
+
+    Note_Board_Bulletin_Grab:
+      - Contract_Whispers_in_the_Mire: "(Haunted House) - *Leave for now - spooky is good, but not  yet.*"
+      - Contract_The_Swamp_Bandit: "(Elusive Thief) - *This fits the style.*"
+      - Contact_Something_in_the_Gator_Bits: "(Monster in the Bits) - *Same thread as before.*"
+
+    Vim_ Vivaldi:
+      description: "In the south-western section, find \"Vim\" Vivaldi, the swamp-banker. He converts your Flo-Gems and Oren-Bucks into shiny new Gator-Bucks. Vim also plays Gator-Gras Cards. He's got a weird ' Gator-Wrangler' deck. He uses a *lot* of \"Decoy\" cards and a special \"Jerry Reed\" card that amps up the whole damn row! Beating him starts the quest \"Gator-Gras Cards: Big City Hustler.\" We'll circle back, but first , let's track down Trish."
+      objective: "For defeating Vim Vivaldi at Gator-Gras Cards"
+      reward: "25 Gator-Bucks, \"Vesemir\" Gator-Wrangler Card"
+
+  Tailing_Grifters_to_Find_Trish :
+    title: "Tailing Grifters to Find Trish \"the Fixer\" Marigold"
+    description: "Head through the double-wide cypress doors south of the Hierarch, find the elevated walkways. Spot some swamp-rats siftin' through Trish's stuff. Talk 'em down (\"Let 's talk\") or fight 'em for the info (\"Get lost\"). Either way, get what you need. \"Eternal Flame\" goons show up, led by that Menge fella. Menge shakes you down and says to back off.\n\nWe need to watch out for 'gator-baiters and  swamp-rats, maybe they know where Trish went.\n\nFirst, check the mess outside Trish's shack, check the bad \"Burt Reynolds is Fake News!\" spray-paint. Inside, activate your Gator-Sense. Find dried swamp-herbs on the floor, check the brush on the  table. Upstairs, loot more, then check the bone-charms. Climb the cypress ladder. Check the swamp-clothes, grab the Gator-Tooth Rosary off the bedside table - Geralt gave it to her back in Lickskillet. Confirms this *was* her place, alright.\n\nOut of  Trish's shack, back to the Hierarch. Geralt spots a 'gator-baiter. Wait near a zone, watch for a swamp-rat to act shady (Gator-Sense is useless here). Follow 'em, keep yer distance.\n\nDown the cypress door, you're bug ged by a swamp-beggar. Pay (20 Gator-Bucks), ask about the \"King of Croakers,\" or tell 'em to get lost. East, drop off the walkway. East through the doors, south, downhill. Watch an exchange, then follow the new target west along the muck- way, then south over the bridge and arch. The stolen 'gator-chips are delivered. Wait, then knock. Bribe the cypress-doorman (50 Gator-Bucks) or use the \"Jerry Reed Charm\" on him (Axii Sign)."
+    objectives:
+      - description : "For using Jerry Reed Charm on the doorman, 40 Gator-Bucks."
+      - description: "For reaching the Croaker's Square: 100 Gator-Bucks."
+
+  Croaker_Square:
+    title: "Croaker's Square (The Putrid  Square)"
+    description: "Before findin' Trish, North, find a vendor. Sells genuine Alligator Skin Saddlebags (+100 carry), buys anything you got. He also plays Gator-Gras Cards: uses a nasty Mire-Monster deck, all Muster and Jerry Reed cards.\n\nBeat  him, loot his card. Then, East, through a door. Trish and the \"King of Croakers\" are inside. Listen to his spiel. Then Trish and Geralt are alone; she gives you a job. West, out of the Square, then talk to her. Follow her to a parts depot." 
+
+  Trishs_New_Scam:
+    title: "Trish's New Scam"
+    description: "Trish talks to Kluhg, a lazy vendor. You gotta get the parts yourself. Loot the shack, open the swamp-door, down the ladder to the muck- pipes under the shack. Kill a Muck-Crawler (level 10). Loot the box behind the ladder, and two more chests in the north-west corner. There's other stuff, but *those* are the spots.\n\nFind the brick post, use Gator-Sense to find a  button. Opens a passage to the north. Out into a muck-way, follow it west. Trish talks, cutscene under a bridge. Swim west with Gator-Sense on, find the misplaced Sack. Loot chests on the way. Find the Swamp-Leather Sack near a sunk 'gator-boat.\n \nBack to Trish, hand her the goods, follow her while bantering. Meet the vendor. Trish's unflattering new gig...then head inside the 'gator-chip depot. Trish tells you what to do. East to the wall, Gator-Sense, place the first swamp-trap. North down the stairs , north to the wall, second trap. West, up/down stairs, third trap on the wooden planks. Back to the entrance. Trish casts her illusion, clears the Swamp-Rats.\n\nThe vendor shows up with \"Eternal Flame\" swamp-thugs. He hired Trish, ratted her out, and didn 't pay her. Kill three Swamp-Hunters (level 10), then confront the fake vendor. Geralt gets some justice, and Trish says that an \"Oneiro-Seer\" might find Ciri. \"Pyres of Gator-Gras\" ends, \"Gator-Gras Dreaming \" begins."
+    objective: "For reuniting with Trish the Fixer, 200 Gator-Bucks."
+
+Gator_Gras_Cards:
+  title: "Gator-Gras Cards: The Great Distraction"
+  description: "We can access central Gator-G ras. Good time to explore... and advance those Gator-Gras Cards sidequests."
+
+  Playing_Joint_Chiefs:
+    title: "Gator-Gras Cards: Playing Joint Chiefs"
+    description: "First, \"Gator-Gras Cards: Playing Joint Chiefs.\" Our third  target is in Gator-Gras. North to the Hierarch, to the boardwalk, enter \"The Kingfisher's Nest.\" Find Olivier, the Joint Chief. Beat him for the \"Tibor Eggebracht\" Card, a 10 Str. Mud-Men unit. Sells \"Havekar Smugg ler,\" \"Mahakaman Defender,\" \"Vrihedd Brigade Veteran,\" and \"Havekar Healer.\""
+    objective: "Beat Olivier at Gator-Gras Cards, 25 Gator-Bucks, Tibor Eggebracht Card"
+
+  Velen_Gamblers:
+    title:  "Gator-Gras Cards: Velen Gamblers"
+    description: "*To Oreton:* Boatwright (easy Nilfgaardian, Letho of Gulet).\n*To Benek:* Old Crone (Monster Deck, Crone: Weavess).\n*To Midcopse:* Ten -year-old Haddy (Vernon Roche, Eredin Bringer of Death)."

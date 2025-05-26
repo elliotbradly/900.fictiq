@@ -1,0 +1,387 @@
+```yaml
+# Story World Codex: Entity Functional Profile Protocol - Pr imal Mama Quest Data
+
+# Metadata about this document
+document_purpose: "Functional Profiles for key entities and states encountered in the 'Seeking Enhanced Erpenthrope Weave' quest."
+world: "Primal Mama"
+codex_ version: "0.2 - Quest Functional Definitions"
+last_updated: "[Current Date]"
+lead_architects: "[Your Name / Studio Name]"
+source_quest: "Seeking Enhanced Erpenthrope Weave"
+protocol_reference : "Entity Functional Profile Protocol (action.md)" # Reference to the protocol used
+
+# Introduction: Defining Dynamic Potential in "Seeking Enhanced Erpenthrope Weave"
+introduction: |
+  This document applies the Entity Functional Profile Protocol to  the key entities encountered during the "Seeking Enhanced Erpenthrope Weave" investigation within the Primal Mama heterocosm. It details their authenticated capabilities and crucial limitations (weaknesses, costs, constraints) as they function within the quest 's narrative mechanics and the world's established modalities.
+
+  Understanding these functional properties is essential for character interaction, conflict resolution, and maintaining internal coherence. Each profile focuses on what the entity does, can do, and cannot do in the context of this  specific quest flow.
+
+# Entity Functional Profiles
+
+entities:
+  # Entity Functional Profile: PC (Protagonist)
+  PC_Protagonist_01:
+    entity_id: "PC_Protagonist_01"
+    entity_ name: "Protagonist (Player Character)"
+    entity_type: "Person"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Actions)"
+
+    functional_properties_ bundle:
+      core_function:
+        - primary_role: "Navigation, Problem Solving, Entity Interaction (Combat/Puzzle/Looting), Investigation (Information Gathering)"
+        - secondary_role: "Progression through  Obstacles, Acquisition of Resources/Items"
+      key_capabilities_powers:
+        - capability_id: "FUNC-PC-NAV-01"
+          name: "Navigation (Walking, Climbing, Swimming)"
+          description:  "Ability to move through diverse environments (land, water, vertical)."
+          authentication: "Demonstrated throughout quest text (Head west, down ramps, swim, climb)."
+          limits_nuances: "Speed/ease varies with  terrain/state (e.g., sluggish in anomaly)."
+        - capability_id: "FUNC-PC-COMBAT-01"
+          name: "Combat Proficiency"
+          description: "Ability to engage and defeat  hostile entities (Automatons, Echoes, Gaters) using authenticated weapons (melee, ranged - crossbow/bio-weapon)."
+          authentication: "Directed actions in quest text (\"Dispatch it\", \"Kill it\", \"Deal with\")."
+           limits_nuances: "Effectiveness depends on entity type and PC gear/mastery."
+        - capability_id: "FUNC-PC-INTERACT-01"
+          name: "Object Interaction (Looting , Using Keys, Reading)"
+          description: "Ability to locate, access, and utilize static objects (chests, notes, keys, levers)."
+          authentication: "Directed actions in quest text (\"Loot a chest\", \" Find the note\", \"Flip each lever\", \"Find the Laboratory Key\")."
+          limits_nuances: "Requires physical proximity; some objects require prior action (e.g., key for hatch)."
+        - capability_ id: "FUNC-PC-SUPERNATURALINT-01"
+          name: "Spectral Interaction"
+          description: "Ability to interact with spectral phenomena via authenticated means (Spectral Harmonizer or ritual magic)."
+           authentication: "Specific instruction to use Harmonizer/ritual on Spectral Barrier."
+          limits_nuances: "Requires specific tool/knowledge; effectiveness against combat spectral entities not explicitly detailed in this quest text but implied by 'Modality - Spectral Interaction '."
+        - capability_id: "FUNC-PC-BIOTECH_FORCE-01"
+          name: "Directed Force (Aard/Bio-Tech Blast)"
+          description: "Ability to apply a focused  burst of force to break weak physical structures."
+          authentication: "Specific instruction to use Aard/Bio-Tech blast on weak section."
+          limits_nuances: "Limited to structures described as 'weak section'."
+       acquired_skills_expertise:
+        - skill_id: "SKL-PC-MASTERY-01"
+          name: "General Mastery/Experience"
+          proficiency_level: "Near Level 20  (as stated), Competent in survival and combat."
+          authentication: "Premise of the quest (\"pushing us near Mastery Level 20\", \"current Standard Issue Security Gear... has held up\")."
+      inabilities_lack_ of_function:
+        - inability_id: "INAB-PC-ANOMALY-01"
+          description: "Cannot move at normal speed within the 'contained anomaly' area effect."
+          authentication: ' Quest text description ("stupidly treated as an \'indoor\' area, meaning Geralt walks at the speed of a gimped snail" - recontextualized as sluggish movement in anomaly).'
+          narrative_function: "Imposes environmental difficulty/ time cost."
+        - inability_id: "INAB-PC-SPECTRAL-01"
+          description: "Cannot pass through spectral barriers by physical means alone."
+          authentication: "Requirement to use Spectral Harmonizer /ritual."
+          narrative_function: "Requires use of specific tool/ability to progress."
+        - inability_id: "INAB-PC-LOCKED-01"
+          description: "Cannot access locked  hatches/doors without the appropriate key/mechanism."
+          authentication: "Observation that the hatch is 'currently locked'."
+          narrative_function: "Creates objective to find the key."
+      vulnerabilities_weaknesses: 
+        - vulnerability_id: "VULN-PC-COMBATDAM-01"
+          description: "Susceptible to physical and spectral damage from hostile entities."
+          authentication: "Implicit need for combat and gear  (\"need something stronger\")."
+          narrative_function: "Creates risk during encounters."
+        - vulnerability_id: "VULN-PC-HAZARD-01"
+          description: "Susceptible to damage or negative effects  from environmental hazards (Toxic Swamp Flora)."
+          authentication: "Instruction to \"Avoid the patches of glowing, toxic swamp flora\"."
+          narrative_function: "Adds environmental risk."
+      costs_dependencies_operational_constraints:
+         - constraint_id: "COST-PC-TOOL-01"
+          applies_to: "[FUNC-PC-SUPERNATURALINT-01]"
+          description: "Spectral interaction via Harmonizer may  require charges/power (implied); via Ritual requires knowledge and potentially resources (as per Codex_MagicSystem)."
+          authentication: "Modality - Spectral Interaction, Epistemic - Ritual Knowledge."
+          narrative_function:  "Adds a potential resource cost or skill gate to spectral interaction."
+        - constraint_id: "DEPEND-PC-GEAR-01"
+          applies_to: "[FUNC-PC-COMBAT-01 ]"
+          description: "Combat effectiveness is dependent on possession and quality of authenticated gear (weapons, armor)."
+          authentication: "Premise of quest to acquire \"something stronger\", diagram authentication."
+          narrative_function: " Drives the core objective of the quest (acquiring gear diagrams)."
+        - constraint_id: "OPCON-PC-ANOMALY-01"
+          applies_to: "[FUNC-PC-NAV- 01]"
+          description: "Physical movement is constrained to sluggish speed within the 'contained anomaly'."
+          authentication: "Quest text description."
+          narrative_function: "Impodes exploration pace within the specific area."
+
+     functional_profile_summary:
+      core_functional_identity: |
+        The Protagonist functions as the primary interactive agent, capable of navigating diverse physical and supernatural obstacles, engaging in combat, and gathering information/items. Their capabilities  are defined by their mastery level, gear, and specific tools/abilities like the Spectral Harmonizer and Aard/Bio-Tech Blast.
+      key_narrative_functions_served: |
+        Drives plot progression by overcoming  barriers (Spectral Barrier, Weak Wall, Locked Hatch, Puzzle), resolving conflicts (Combat Encounters), and gathering key items (Notes, Key, Diagrams). Embodies themes of adaptation and seeking power/knowledge in a dangerous, altered world. 
+      relationship_to_alethic_modality: |
+        The PC operates within the bounds of the possible, utilizing authenticated abilities (Aard/Bio-Tech, Spectral Interaction) and respecting impossibilities (cannot pass spectral  barrier physically). Their ability to defeat entities confirms the possibility of overcoming threats using the world's established rules.
+      key_functional_tensions_tradeoffs: |
+        PC's combat capability vs. vulnerability to enemy damage /hazards; Ability to interact with spectral world vs. requirement for specific tools/knowledge; Ability to navigate vs. environmental constraints (contained anomaly).
+
+  # Entity Functional Profile: Obstacle_SpectralBarrier
+  Obstacle_Spectral Barrier_01:
+    entity_id: "Obstacle_SpectralBarrier_01"
+    entity_name: "Spectral Barrier"
+    entity_type: "Obstacle / Environmental State"
+    primary_ authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Obstacle)"
+      - "Primal Mama Codex (Modality - Spectral Interaction)"
+
+    functional_properties_bundle:
+      core_ function:
+        - primary_role: "Blocking physical passage."
+        - secondary_role: "Requiring specific interaction (Spectral Harmonizer/ritual) to progress."
+      key_capabilities_powers:
+        - capability _id: "FUNC-SB-IMPERVIOUS-01"
+          name: "Physical Imperviousness"
+          description: "Cannot be passed through or affected by standard physical means or force (implied, as A ard is used elsewhere)."
+          authentication: "Requirement for specific non-physical solution (Harmonizer/ritual)."
+      acquired_skills_expertise: [] # N/A - Static Obstacle
+      inabilities_lack_of_function:
+         - inability_id: "INAB-SB-PASSIVE-01"
+          description: "Cannot move, attack, or otherwise actively interact with entities."
+          authentication: "Observed behavior in quest."
+       vulnerabilities_weaknesses:
+        - vulnerability_id: "VULN-SB-SPECTRALTOOL-01"
+          description: "Can be dispelled or bypassed by interaction with an authenticated spectral tool (Spectral  Harmonizer) or specific ritual magic."
+          authentication: "Specific solution provided in quest text."
+      costs_dependencies_operational_constraints:
+        - constraint_id: "DEPEND-SB-SPECTRALPRESENCE-0 1"
+          applies_to: "[Obstacle_SpectralBarrier_01]"
+          description: "Its existence is likely dependent on localized spectral energy or a specific anomaly."
+          authentication: "Modality - Spectral Interaction , quest context (found in anomaly area)."
+
+    functional_profile_summary:
+      core_functional_identity: |
+        The Spectral Barrier functions as a passive, static obstacle that is impervious to physical force but susceptible to specific  spectral interaction methods.
+      key_narrative_functions_served: |
+        Acts as a gatekeeper, forcing the PC to utilize a specific tool or ability (Spectral Harmonizer/ritual) to continue the quest, thereby authentic ating that specific capability for the PC.
+      relationship_to_alethic_modality: |
+        Instantiates the world's laws regarding spectral phenomena – they exist, they can impede the physical world, and they can be interacted with via specific , possible means. It confirms the impossibility of physically interacting with certain spectral states.
+      key_functional_tensions_tradeoffs: |
+        Impenetrability vs. the existence of a specific, counter-acting capability.
+
+   # Entity Functional Profile: CREATURE_SecurityAutomaton
+  CREATURE_SecurityAutomaton_01:
+    entity_id: "CREATURE_SecurityAutomaton_01"
+    entity_name: "Security  Automaton"
+    entity_type: "Creature / Construct"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Encounter)"
+      - "Primal  Mama Codex (Entity - Automaton Functional Profile, Modality - Tech Aesthetic Constraint)"
+
+    functional_properties_bundle:
+      core_function:
+        - primary_role: "Patrolling a designated area, challenging intruders." 
+        - secondary_role: "Acting as a physical obstacle/enemy."
+      key_capabilities_powers:
+        - capability_id: "FUNC-AUTO-PATROL-01"
+          name: "Pat rolling"
+          description: "Ability to move along a pre-programmed path."
+          authentication: "Quest text description (\"skulking around\" / \"patroling\")."
+        - capability_id: "FUNC- AUTO-COMBAT-01"
+          name: "Combat Engagement"
+          description: "Ability to detect and engage hostile entities within its patrol area."
+          authentication: "Instruction to \"Dispatch it\"."
+          limits _nuances: "Likely limited by its 1970s tech aesthetic in terms of speed/sophistication compared to modern threats (Auth: Modality - Tech Aesthetic)."
+      acquired_skills_expertise: []  # N/A - Programmed Construct
+      inabilities_lack_of_function:
+        - inability_id: "INAB-AUTO-ANOMALY-01"
+          description: "Cannot move at normal  speed within the 'contained anomaly' area effect (inferred from PC's inability)."
+          authentication: "Inferred from general effect of anomaly on movement."
+        - inability_id: "INAB-AUTO-ADAPT -01"
+          description: "Cannot deviate significantly from programmed behavior or adapt to unexpected situations (implied by 'Automaton' type)."
+          authentication: "Entity Type definition."
+      vulnerabilities_weaknesses: 
+        - vulnerability_id: "VULN-AUTO-COMBAT-01"
+          description: "Can be defeated/destroyed through combat (PC action: \"Dispatch it\")."
+          authentication: "Specific  PC action to defeat the entity."
+        - vulnerability_id: "VULN-AUTO-TECHAESTHETIC-01"
+          description: "May have functional limitations or vulnerabilities inherent in its mandatory late 1 970s design aesthetic (Auth: Modality - Tech Aesthetic Constraint)."
+          authentication: "Modality reference, entity description (\"clunky\")."
+      costs_dependencies_operational_constraints:
+        - constraint_ id: "COST-AUTO-MAINTENANCE-01"
+          applies_to: "[CREATURE_SecurityAutomaton_01]"
+          description: "Requires maintenance and potentially replacement parts (implied by \" Invoice for a Security Automaton\")."
+          authentication: "Looted item \"Invoice\"."
+          narrative_function: "Adds a layer of world detail regarding how these constructs are managed."
+        - constraint_ id: "OPCON-AUTO-PROGRAMMING-01"
+          applies_to: "[CREATURE_SecurityAutomaton_01]"
+          description: "Limited by its programmed patrol route and threat response parameters." 
+          authentication: "Entity Type definition."
+
+    functional_profile_summary:
+      core_functional_identity: |
+        The Security Automaton functions as a programmed physical guard, capable of patrolling and engaging threats, but limited  by its design aesthetic and potentially the environment.
+      key_narrative_functions_served: |
+        Acts as a standard combat encounter, providing a tangible threat that authenticates the PC's combat capabilities. The "Invoice"  adds context about the entity's origin and the world's reliance on such constructs.
+      relationship_to_alethic_modality: |
+        Represents the possibility of functional technological constructs existing within the 1970s aesthetic constraint . Its vulnerability confirms that such constructs are not invincible within the world's combat system.
+      key_functional_tensions_tradeoffs: |
+        Functional patrolling/security role vs. combat vulnerability and potential environmental/design limitations.
+
+  # Entity  Functional Profile: Hazard_ToxicFlora
+  Hazard_ToxicFlora_01:
+    entity_id: "Hazard_ToxicFlora_01"
+    entity_name: "Toxic Swamp Flora"
+    entity_type : "Hazard / Place"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Hazard)"
+      - "Primal Mama Codex (Synchronic Coherence - Entity Properties vs. World Laws )"
+
+    functional_properties_bundle:
+      core_function:
+        - primary_role: "Imposing environmental damage or negative effects upon contact."
+        - secondary_role: "Adding environmental realism and requiring navigation caution ."
+      key_capabilities_powers:
+        - capability_id: "FUNC-FLORA-TOXICEMIT-01"
+          name: "Toxicity Emission"
+          description: "Emits harmful  substances (toxins/radiation?) that affect biological entities on contact."
+          authentication: "Instruction to \"Avoid\" due to being \"glowing, toxic\"."
+      acquired_skills_expertise: [] # N/A -  Static Environmental Element
+      inabilities_lack_of_function:
+        - inability_id: "INAB-FLORA-INERT-01"
+          description: "Cannot move, attack, or actively pursue entities. Is a static  hazard."
+          authentication: "Observed behavior in quest."
+        - inability_id: "INAB-FLORA-DESTROY-01"
+          description: "Cannot be destroyed or removed by standard PC actions described in  the quest (e.g., Aard, combat - implied)."
+          authentication: "Only 'Avoid' action is given; no method for removal is presented."
+          narrative_function: "Functions as permanent terrain obstacle."
+       vulnerabilities_weaknesses: [] # None described or implied
+      costs_dependencies_operational_constraints:
+        - constraint_id: "DEPEND-FLORA-ENVIRONMENT-01"
+          applies_to: "[Hazard _ToxicFlora_01]"
+          description: "Its existence and properties are tied to the altered post-calamity swamp environment."
+          authentication: "Synchronic Coherence reference, quest description (\"swamp flora\")." 
+
+    functional_profile_summary:
+      core_functional_identity: |
+        The Toxic Swamp Flora functions as a static, passive environmental hazard that harms entities upon contact but cannot be actively engaged or removed by the PC (in  this context).
+      key_narrative_functions_served: |
+        Adds environmental challenge and requires careful navigation, reinforcing the danger and altered nature of the post-calamity swamp.
+      relationship_to_aleth ic_modality: |
+        Represents the possibility of dangerous, altered biological entities existing in the environment, a consequence of the calamity or other world forces. Its unremovable nature (within this quest) defines its specific functional possibility .
+      key_functional_tensions_tradeoffs: |
+        Its static nature makes it predictable, but its imperviousness and harmful effect make it a persistent environmental threat that must be respected.
+
+  # Entity Functional Profile:  CREATURE_MalevolentEcho
+  CREATURE_MalevolentEcho_01:
+    entity_id: "CREATURE_MalevolentEcho_01"
+    entity_name: "Malevolent Echo"
+     entity_type: "Creature / Spectral Entity"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Encounter)"
+      - "Primal Mama Codex (Entity -  Ghost Functional Profile, Modality - Spectral Interaction)"
+
+    functional_properties_bundle:
+      core_function:
+        - primary_role: "Manifesting and engaging entities in combat."
+        - secondary_role: " Acting as a spectral guardian/threat."
+      key_capabilities_powers:
+        - capability_id: "FUNC-ECHO-MANIFEST-01"
+          name: "Manifestation"
+          description: "Ability  to appear in the physical world as a 'lingering spectral manifestation'."
+          authentication: "Quest text description (\"arrives to challenge you\")."
+        - capability_id: "FUNC-ECHO-COMBAT-0 1"
+          name: "Spectral Combat"
+          description: "Ability to engage hostile entities in combat, likely via spectral means."
+          authentication: "Instruction to \"Kill it\"."
+      acquired_skills_expertise:  [] # N/A - Elemental/Spectral Entity
+      inabilities_lack_of_function:
+        - inability_id: "INAB-ECHO-PASSIVE-01"
+          description: "Cannot exist  indefinitely or range widely (implied as 'lingering', encountered in specific areas)."
+          authentication: "Entity type description (\"lingering spectral manifestation\")."
+        - inability_id: "INAB-ECHO-RES ISTPHYS-01"
+          description: "Likely possesses resistance or immunity to standard physical attacks unless channeled through specific means (inferred from 'spectral' nature and need for spectral interaction tools for other spectral entities)."
+          authentication: "In ferred from Primal Mama Codex (Modality - Spectral Interaction, Ghost Functional Profile) and contrast with physical entities."
+          narrative_function: "Requires PC to use appropriate combat method (implied, e.g., Erp enthrope Silvered Blade, spectral-attuned abilities)."
+      vulnerabilities_weaknesses:
+        - vulnerability_id: "VULN-ECHO-SPECTRALCOMBAT-01"
+          description:  "Can be defeated/killed through appropriate combat methods (likely those effective against spectral entities)."
+          authentication: "Specific PC action to \"Kill it\"."
+          narrative_function: "Authenticates the PC's capability to deal  with spectral threats."
+        - vulnerability_id: "VULN-ECHO-SOURCE-01"
+          description: "Existence tied to a spectral source or anomaly; removal of source may disperse it (implied by  'Echo')."
+          authentication: "Entity name (\"Echo\"), quest context (anomaly area)."
+      costs_dependencies_operational_constraints:
+        - constraint_id: "DEPEND-ECHO-SPECTRALPRESENCE -01"
+          applies_to: "[CREATURE_MalevolentEcho_01]"
+          description: "Its manifestation and presence are dependent on localized spectral energy or anomaly (as per Modality - Spectral Interaction)." 
+          authentication: "Modality reference, entity type, quest context."
+
+    functional_profile_summary:
+      core_functional_identity: |
+        The Malevolent Echo functions as a dynamic spectral enemy, capable of manifesting  and engaging in combat, but vulnerable to specific anti-spectral methods.
+      key_narrative_functions_served: |
+        Provides combat challenge, reinforces the presence and danger of the spectral layer of the world, and authenticates  the PC's ability to fight non-physical entities.
+      relationship_to_alethic_modality: |
+        Embodies the possibility of hostile spectral entities manifesting from past events or anomalies, confirming that the veil between  worlds is indeed permeable and dangerous.
+      key_functional_tensions_tradeoffs: |
+        Its non-physical nature makes it resistant to standard attacks, requiring the PC to utilize appropriate tools or abilities, creating a specific combat  challenge type.
+
+  # Entity Functional Profile: System_StatuePuzzle
+  System_StatuePuzzle_01:
+    entity_id: "System_StatuePuzzle_01"
+    entity_name:  "Statue Puzzle"
+    entity_type: "System / Obstacle"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Puzzle)"
+      - "Pr imal Mama Codex (Modality - Axiological, Modality - Tech Aesthetic, Narrative Puzzle Authentication)"
+
+    functional_properties_bundle:
+      core_function:
+        - primary_role: "Blocking access to an area until a specific  sequence of interactions is performed."
+        - secondary_role: "Acting as a logic-based environmental challenge."
+      key_capabilities_powers:
+        - capability_id: "FUNC-PUZZLE-LEVERACT -01"
+          name: "Lever Activation"
+          description: "Levers can be physically manipulated by the PC."
+          authentication: "Instruction to \"Flip each lever\"."
+          limits_nuances: " Each lever causes specific, predictable effect (statue pivots)."
+        - capability_id: "FUNC-PUZZLE-STATUEPIVOT-01"
+          name: "Statue Pivoting"
+          description : "Each lever activation causes a specific, linked statue to pivot."
+          authentication: "Instruction (\"flip the levers, which turn the statues\")."
+          limits_nuances: "Specific number of pivots per lever (most  twice, one none) is consistent."
+        - capability_id: "FUNC-PUZZLE-FLOOROPEN-01"
+          name: "Floor Mechanism Activation"
+          description: "Upon all statues reaching the  correct orientation (facing inward), a linked floor section opens."
+          authentication: "Specific outcome described for successful puzzle completion (\"Once they're all facing into the ruins, the floor will roll back\")."
+      acquired_skills _expertise: [] # N/A - Static System
+      inabilities_lack_of_function:
+        - inability_id: "INAB-PUZZLE-FORCE-01"
+          description: "Cannot  be bypassed by physical force or standard means other than the intended lever interaction (implied by 'puzzle')."
+          authentication: "Lack of alternative solutions presented."
+          narrative_function: "Requires PC to engage with the logic  of the system."
+        - inability_id: "INAB-PUZZLE-INERT-01"
+          description: "Cannot act autonomously or respond dynamically to the PC beyond the programmed lever/statue mechanics." 
+          authentication: "Observed behavior in quest."
+      vulnerabilities_weaknesses:
+        - vulnerability_id: "VULN-PUZZLE-SOLUTION-01"
+          description: "The system  is vulnerable to the correct sequence/configuration of lever activations, leading to bypass."
+          authentication: "Specific solution provided in quest text."
+      costs_dependencies_operational_constraints:
+        - constraint_id: "DEPEND- PUZZLE-PCINTERACTION-01"
+          applies_to: "[System_StatuePuzzle_01]"
+          description: "Requires direct physical interaction by the PC to manipulate levers."
+          authentication:  "Instruction to \"flip each lever\"."
+        - constraint_id: "OPCON-PUZZLE-MECHANICAL-01"
+          applies_to: "[System_StatuePuzzle_01]"
+           description: "Relies on a mechanical link between levers, statues, and the floor mechanism (using 1970s-style components)."
+          authentication: "Modality - Tech Aesthetic, description of 'chunky levers '."
+
+    functional_profile_summary:
+      core_functional_identity: |
+        The Statue Puzzle functions as a static, mechanical system that requires specific, logical interaction (lever manipulation) to change its state and open a path , representing a pre-calamity or early post-calamity security/access mechanism updated with post-calamity reverence.
+      key_narrative_functions_served: |
+        Acts as a logic barrier that  the PC must solve, authenticating their problem-solving capabilities. It also subtly embeds world lore through the depiction of the deified celebrities on the statues.
+      relationship_to_alethic_modality: |
+        Rep resents the possibility of complex mechanical systems (within the 1970s tech constraint) functioning reliably based on specific inputs, leading to a predictable physical outcome (floor opening).
+      key_functional_tensions_tradeoffs:  |
+        Simplicity of interaction (flipping levers) vs. the requirement to understand the underlying logic (all statues facing inward).
+
+  # Entity Functional Profile: CREATURE_CalamityGater
+  CREATURE_C alamityGater_01:
+    entity_id: "CREATURE_CalamityGater_01"
+    entity_name: "Calamity Gaters (Feral GE Alligators)"
+     entity_type: "Creature / Bio-Engineered Entity"
+    primary_authentication_sources:
+      - "Investigation: Seeking Enhanced Erpenthrope Weave (Narrative Encounter)"
+      - "Primal Mama  Codex (Entity - Feral GE Alligators/Calamity Gaters, Modality - Alethic - Alligator Biogenesis)"
+
+    functional_properties_bundle:
+      core_function:
+        - primary_role: "Guard</blockquote> 

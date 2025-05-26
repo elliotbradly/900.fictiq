@@ -1,0 +1,398 @@
+```yaml
+quest:
+  name: "Sparring Rosa and Bog-Boning Roche Protocol"
+  protocol_basis: "Entity Functional Profile Protocol"
+  introduction: | 
+    "This protocol outlines the functional progression of the quest 'Sparring Rosa and Bog-Boning Roche', detailing character capabilities, entity properties, environmental constraints, and interactive systems as authenticated within the Primal Mama heterocosm. Our  primary objective involves locating Dandelion, or his Primal Mama equivalent – perhaps a travelling bard whose performance capability involves reciting authenticated odes to the deified Burt Reynolds, Jerry Reed, and Gram Parsons. If the immediate pursuit of this entity is  desired, proceed directly to the objective related to their tracking. However, several functionally distinct localized scenarios are accessible in the swamp environs beyond Beetriot, offering opportunities to engage with various world systems and entities. The initial engagement involves a mandatory sparring lesson  protocol..."
+  sections:
+    - title: "Sparring Lessons (Mandatory Functional Training)"
+      level_requirement: 12
+      steps:
+        - description: "Approach the perimeter of the var Attre estate,  noting its authentication as a high-status location, functionally elevated above the surrounding swamp mist, exhibiting authenticated 1970s-style retro-futuristic architecture (a stylistic constraint, FUNC-ESTATE-01)."
+          entities_involved: 
+            - name: "var Attre estate"
+              role: "Location/Context"
+              functional_properties_activated:
+                - "FUNC-ESTATE-01: Stylistic Constraint (1970s Architecture )"
+          player_actions: []
+          outcomes: []
+        - description: "Initiate interaction with the primary security entity: CREATURE_Automaton_Guard. Acknowledge its authenticated presence, while navigating the cultural  constraint of the discernible 'stain on reputation' associated with Automaton/LLM users (DEONTIC_AutomatonStigma). The Automaton's core function (FUNC-AUTO-SEC-01) is access control  and information relay. It will authenticate that CHAR_Rosa_VarAttre is not present at this location but is situated near LOC_Reclaimed_Wetlands_Bridge, connecting towards LOC_SolarGatorShack."
+          entities_involved :
+            - name: "CREATURE_Automaton_Guard"
+              role: "Obstacle/Information Source"
+              functional_properties_activated:
+                - "FUNC-AUTO-SEC-01: Access Control"
+                 - "FUNC-AUTO-SEC-01: Information Relay"
+                - "DEONTIC_AutomatonStigma: Social Constraint"
+          player_actions:
+            - name: "Initiate conversation protocol"
+           outcomes:
+            - description: "Receive information about Rosa's location."
+              rewards:
+                - objective: "For talking to the guard Automaton at the var Attre estate"
+                  reward: "10 XP "
+        - description: "Locate and engage with CHAR_Rosa_VarAttre near the designated bridge (authenticated as structurally sound but visually decayed, reflecting environmental wear within the aesthetic constraint). Rosa will utilize her social capability (SKL-ROSA- 01: Dismissal of Minder) to remove her accompanying human oversight. She will then express a preference for a more 'authentic' training environment, functionally contrasting with the estate's controlled setting, specifically requesting a 'Gator Grappling ' lesson. This indicates her acquired skill/expertise (SKL-ROSA-02: Basic Gator Grappling Techniques) and her desire to test this functional capacity in a realistic scenario, implying interaction protocols with CREATURE_GE_ Alligator functional profiles."
+          entities_involved:
+            - name: "CHAR_Rosa_VarAttre"
+              role: "Interaction Target/Sparring Partner"
+              functional_properties_activated:
+                - " SKL-ROSA-01: Dismissal of Minder"
+                - "SKL-ROSA-02: Basic Gator Grappling Techniques"
+          player_actions:
+            - name: "Locate entity "
+            - name: "Engage in conversation"
+          outcomes: []
+        - description: "Engage in a sparring protocol with Rosa, utilizing your full functional capabilities (FUNC-PLAYER-COMBAT-01). Def eating her authentication state ('defeat her once again') indicates your superior combat proficiency (SKL-PLAYER-COMBAT-02). Upon being functionally subdued, Rosa will trigger a pre-authenticated evasive maneuver/trick (SKL- ROSA-03: Swamp Evasion Tactic) and disengage by moving rapidly into the marsh environment."
+          entities_involved:
+            - name: "CHAR_Rosa_VarAttre"
+              role: "Sparring Opp onent/Evader"
+              functional_properties_activated:
+                - "SKL-ROSA-03: Swamp Evasion Tactic"
+          player_actions:
+            - name: "Engage in sparring protocol"
+               functional_properties_used:
+                - "FUNC-PLAYER-COMBAT-01: Combat Capabilities"
+                - "SKL-PLAYER-COMBAT-02: Combat Proficiency"
+          outcomes:
+             - description: "Successfully defeat Rosa in sparring; she evades."
+              rewards:
+                - objective: "For sparring with Rosa"
+                  reward: "25 XP"
+        - description: "Activate your authenticated sensory capabilities ( FUNC-PLAYER-SENSES-01: Enhanced Tracking) to locate CHAR_Rosa_VarAttre's path of movement. This typically involves identifying disturbed ENV_Swamp_Mud (an environmental entity property) or other discrete physical markers. Her  trail confirms movement southeast towards LOC_SolarGatorShack."
+          entities_involved:
+            - name: "CHAR_Rosa_VarAttre"
+              role: "Tracking Subject"
+              functional_properties_activated:
+                -  "SKL-ROSA-03: Evasion Result (Left Trail)"
+            - name: "ENV_Swamp_Mud"
+              role: "Environmental Constraint/Indicator"
+              functional_properties_activated:
+                -  "Property: Disturbable surface"
+          player_actions:
+            - name: "Activate enhanced senses"
+              functional_properties_used:
+                - "FUNC-PLAYER-SENSES-01: Enhanced Tracking" 
+            - name: "Follow trail"
+          outcomes:
+            - description: "Successfully track Rosa to the next location."
+        - description: "Proceed to LOC_SolarGatorShack. This location functions as  a local hub (FUNC-SHACK-01: Shelter/Commerce), authenticated by its physical attributes (low-slung, stilted, solar panels - reflecting reliance on MODALITY_ALEHTIC_SolarDominance). Upon arrival, observe CHAR _Rosa_VarAttre engaging with a group of NPC_SwampLocals who are exhibiting non-sanctioned interaction protocols ('typical swamp-dweller hospitality')."
+          entities_involved:
+            - name: " LOC_SolarGatorShack"
+              role: "Location/Hub"
+              functional_properties_activated:
+                - "FUNC-SHACK-01: Shelter/Commerce"
+                - "MODALITY_ALEHTIC_ SolarDominance: Power Source"
+            - name: "CHAR_Rosa_VarAttre"
+              role: "Interaction Target"
+            - name: "NPC_SwampLocals"
+              role: "Obstacles/Threats" 
+              functional_properties_activated:
+                - "SKL-SWAMPLOCAL-01: Non-sanctioned interaction protocols"
+          player_actions:
+            - name: "Proceed to location"
+             - name: "Observe entities"
+          outcomes: []
+        - description: "Initiate confrontation protocol with the NPC_SwampLocals. Available functional responses include: 1) ACTION-PLAYER-COMBAT- 02: Initiate hostile engagement protocol against CREATURE_SwampBrawlers (level 9, possessing basic combat capabilities). 2) ACTION-PLAYER-BARGAIN-01: Attempt to resolve conflict via resource transfer (e.g., offer pre -calamity tech parts or biofuel - authenticated resource types). 3) ACTION-PLAYER-ABILITY-01: Utilize mental influence capability (ABILITY-PLAYER-AXII-01, re-flavored as psychological miasma). Successful application  results in the NPCs ceasing hostile or unwanted interaction protocols. This is authenticated as often the most efficient resolution."
+          entities_involved:
+            - name: "NPC_SwampLocals"
+              role: "Obstacles/Threats"
+             - name: "CREATURE_SwampBrawlers"
+              role: "Hostile Entities (if combat chosen)"
+              functional_properties_activated:
+                - "FUNC-CREATURE-01: Basic Combat Capabilities"
+           player_actions:
+            - name: "Initiate confrontation protocol"
+              functional_properties_used:
+                - "ACTION-PLAYER-COMBAT-02: Combat Initiation"
+                - "ACTION-PLAYER-BARGAIN- 01: Conflict Resolution via Resources"
+                - "ACTION-PLAYER-ABILITY-01: Mental Influence"
+                - "ABILITY-PLAYER-AXII-01: Psychological Miasma Application"
+          outcomes: 
+            - description: "Successfully resolve the encounter via Combat, Bargain, or Axii."
+              rewards:
+                - objective: "For using the Axii Sign on the locals"
+                  reward: "40 XP"
+             - description: "If combat chosen, defeat Swamp Brawlers."
+        - description: "Following resolution via any authenticated method, engage with CHAR_Rosa_VarAttre. Utilize conversational protocols to administer a 'stern talking-to',  emphasizing the inherent environmental hazards and social risks of unsupervised presence in the swamp fringes. This concludes the lesson protocol, and Rosa is functionally redirected back towards LOC_Beetriot (authenticated as her high-status origin)."
+          entities_involved :
+            - name: "CHAR_Rosa_VarAttre"
+              role: "Interaction Target"
+            - name: "LOC_Beetriot"
+              role: "Destination (Constraint)"
+              functional_properties _activated:
+                - "Property: High-status location"
+          player_actions:
+            - name: "Engage in conversation"
+          outcomes:
+            - description: "Rosa is sent home."
+              rewards:
+                 - objective: "For rescuing Rosa"
+                  reward: "25 XP"
+        - description: "From LOC_SolarGatorShack, initiate exploration of the surrounding wetlands (authenticated as a distinct geographical/ecological state). Movement  capabilities may include utilizing OBJ_Watercraft (poling) or navigating ENV_Swamp_Trails (muddy). Navigate an authenticated OBJ_Solar_Lift_Bridge (a functional object reflecting 1970s tech aesthetic and solar reliance)."
+           entities_involved:
+            - name: "ENV_Wetlands"
+              role: "Environment/Context"
+              functional_properties_activated:
+                - "Property: Distinct geographical/ecological state"
+            - name: "OBJ_ Watercraft"
+              role: "Traversal Method"
+              functional_properties_activated:
+                - "FUNC-OBJECT-01: Poling capability"
+            - name: "ENV_Swamp_Trails"
+              role:  "Traversal Constraint"
+              functional_properties_activated:
+                - "Property: Muddy terrain"
+            - name: "OBJ_Solar_Lift_Bridge"
+              role: "Traversal Obstacle/Functional Object"
+              functional _properties_activated:
+                - "FUNC-OBJECT-02: Lift mechanism"
+                - "MODALITY_ALEHTIC_SolarDominance: Power Source"
+                - "FUNC-ESTHETIC-01:  1970s Design"
+          player_actions:
+            - name: "Initiate exploration protocol"
+            - name: "Navigate environment"
+          outcomes: []
+        - description: "Proceed north into deeper marshlands.  Encounter CREATURE_Drowners (level 9 - authenticated creature type with specific aquatic/environmental functional properties). Engage and neutralize via combat protocol. Loot environmental entities (ENV_WaterloggedDebris, ENV_Corpses). A specific entity (ENV_ Corpse_Soldier near OBJ_SignalFlagpost) is authenticated to yield potentially valuable items."
+          entities_involved:
+            - name: "CREATURE_Drowners"
+              role: "Hostile Entities/Environmental  Hazard"
+              functional_properties_activated:
+                - "FUNC-CREATURE-02: Aquatic/Environmental Combat Capabilities"
+            - name: "ENV_WaterloggedDebris"
+              role: "Resource Node"
+            - name : "ENV_Corpses"
+              role: "Resource Node"
+            - name: "ENV_Corpse_Soldier"
+              role: "Specific Resource Node"
+            - name: "OBJ_SignalFlagpost"
+               role: "Landmark/Context"
+          player_actions:
+            - name: "Engage in combat protocol"
+              functional_properties_used:
+                - "FUNC-PLAYER-COMBAT-01: Combat Capabilities"
+             - name: "Loot entities"
+              functional_properties_used:
+                - "ACTION-PLAYER-LOOT-01: Resource Acquisition"
+          outcomes:
+            - description: "Drowners  defeated, resources acquired."
+    - title: "Taxes or the Tides (Deontic Modality Enforcement Encounter)"
+      steps:
+        - description: "Follow the established path/waterway east. Upon reaching a major junction,  maintain movement along the northern passage. At a subsequent fork, take the southern branch. Encounter CREATURE_Oligarch_Enforcers (level 13 - authenticated hostile faction entities) engaged in enforcing regulations upon NPC_Swamp Gatherers or NPC_GatorFarmers (authenticated local population types). These enforcers' equipment (OBJ_1970s_Gear - reflecting aesthetic constraint and functional capabilities) authenticates their affiliation with the powerful FACTION_MeatProcessingO ligarchies (authenticated political/economic power bloc). Their actions (ACTION-ENFORCER-01: Harassment/Regulation Enforcement) reflect the Oligarchies' efforts to exert functional control over local resource producers, a key source of WORLD STATE_Oligarch_Friction."
+          entities_involved:
+            - name: "CREATURE_Oligarch_Enforcers"
+              role: "Obstacles/Threats"
+              functional_properties _activated:
+                - "FUNC-FACTION-01: Enforcement Capabilities"
+                - "OBJ_1970s_Gear: Equipment Functional Property"
+            - name: "NPC_SwampGatherers /  NPC_GatorFarmers"
+              role: "Victims/Interaction Targets"
+            - name: "FACTION_MeatProcessingOligarchies"
+              role: "Authority/Constraint Source"
+              functional_properties _activated:
+                - "ACTION-FACTION-01: Regulation Enforcement"
+                - "WORLDSTATE_Oligarch_Friction: System State"
+          player_actions:
+            - name: "Navigate  environment"
+            - name: "Observe encounter"
+          outcomes: []
+        - description: "Initiate confrontation protocol. Available functional responses: 1) ACTION-PLAYER-DISENGAGE-01: Cease interaction.  2) ACTION-PLAYER-COMBAT-02: Initiate hostile engagement protocol against CREATURE_Oligarch_Enforcers. 3) ACTION-PLAYER-BARGAIN-01: Attempt resolution via bribe. Authenticated cost: ' 100 Crowns'. 4) ACTION-PLAYER-ABILITY-01: Utilize mental influence capability (ABILITY-PLAYER-AXII-01)."
+          entities_involved:
+            - name: "CREATURE_O ligarch_Enforcers"
+              role: "Obstacles/Threats"
+          player_actions:
+            - name: "Initiate confrontation protocol"
+              functional_properties_used:
+                - "ACTION -PLAYER-DISENGAGE-01"
+                - "ACTION-PLAYER-COMBAT-02"
+                - "ACTION-PLAYER-BARGAIN-01"
+                - "ACTION-PLAYER-ABILITY- 01"
+                - "ABILITY-PLAYER-AXII-01"
+          outcomes:
+            - description: "Successfully resolve the encounter via choice (Disengage, Combat, Bargain, or Axii)."
+              rewards:
+                 - objective: "For using Axii on the Enforcers"
+                  reward: "40 XP"
+        - description: "Following resolution via any authenticated method, engage with an NPC_SwampLocal entity. Utilize conversational protocols to gain  INFO_Authenticated (information about a functionally useful location or item nearby, e.g., LOC_ResourceCache, PATH_SafePassage, INFO_OligarchActivity)."
+          entities_involved:
+            - name: "NPC_SwampLocal "
+              role: "Information Source"
+              functional_properties_activated:
+                - "FUNC-NPC-01: Information Relay"
+                - "INFO_Authenticated: Information Type (Functional Utility)"
+          player_actions :
+            - name: "Engage in conversation"
+          outcomes:
+            - description: "Gain information about useful resource/location."
+              rewards:
+                - objective: "For helping the locals"
+                  reward: " 25 XP"
+    - title: "Wary Wayfarers (Epistemic & Axiological Encounter)"
+      steps:
+        - description: "Proceed south. Locate a small gathering of entities situated west of the main route . Their setup (e.g., around a bio-fuel generator, under tarp shelter) indicates their current functional state (traveling, cautious). Initiate interaction protocol, providing your name (or lack thereof), engaging in conversational functions."
+          entities_involved: 
+            - name: "LOC_Wary_Gathering"
+              role: "Location/Context"
+            - name: "NPC_Wayfarers"
+              role: "Interaction Targets/Context"
+              functional_ properties_activated:
+                - "Property: Cautious functional state"
+          player_actions:
+            - name: "Proceed to location"
+            - name: "Initiate interaction protocol"
+            - name: "Eng age in conversation"
+          outcomes: []
+        - description: "One entity, NPC_Trader_Marvin, will exhibit functional behavior (SKL-MARVIN-01: Suspicious Information Relay) that triggers the  suspicion of an accompanying CREATURE_Oligarch_Watchman. The Watchman's actions (ACTION-WATCHMAN-01: Questioning/Detainment Attempt) are driven by the prevalent WORLDSTATE_Paranoia and specific  epistemic beliefs (e.g., suspicion of Automaton users, hidden knowledge, 'invisible women' conspiracy - AUTHENTICATED_Epistemic_Conspiracy)."
+          entities_involved:
+            - name: "NPC _Trader_Marvin"
+              role: "Catalyst/Interaction Target"
+              functional_properties_activated:
+                - "SKL-MARVIN-01: Suspicious Information Relay"
+            - name: "CREATURE _Oligarch_Watchman"
+              role: "Obstacle/Threat"
+              functional_properties_activated:
+                - "ACTION-WATCHMAN-01: Questioning/Detainment Attempt"
+            - name: "WORLDSTATE _Paranoia"
+              role: "Constraint/Context"
+            - name: "AUTHENTICATED_Epistemic_Conspiracy"
+              role: "Constraint/Context (Motivation for Watchman)"
+          player_ actions: []
+          outcomes:
+            - description: "Suspicion is raised; Watchman initiates action."
+        - description: "The Watchman will attempt to functionally challenge NPC_Trader_Marvin. Your response options engage different functional potentials : 1) ACTION-PLAYER-OBSERVE-01: Remain inactive. 2) ACTION-PLAYER-AID-01: Assist the Watchman. 3) ACTION-PLAYER-DEFEND-01: Intervene to protect the  trader. Branching Scenario: If you decline to authenticate your identity and attempt to functionally disengage when pressed, both NPC_Trader_Marvin and the CREATURE_Oligarch_Watchman will enter a hostile state, accusing you  based on prevalent fears (e.g., rival agent, Erpenthrope spy). This requires a combat resolution protocol (ACTION-PLAYER-COMBAT-02) against both entities."
+          entities_involved:
+            -  name: "CREATURE_Oligarch_Watchman"
+              role: "Antagonist"
+            - name: "NPC_Trader_Marvin"
+              role: "Interaction Target / Potential Antagonist"
+          player _actions:
+            - name: "Choose response"
+              functional_properties_used:
+                - "ACTION-PLAYER-OBSERVE-01"
+                - "ACTION-PLAYER-AID-01"
+                - "ACTION -PLAYER-DEFEND-01"
+                - "ACTION-PLAYER-COMBAT-02 (Conditional)"
+          outcomes:
+            - description: "Encounter resolved based on choice (Aid, Defend, Observe )."
+              rewards:
+                - objective: "For helping the guard subdue the 'spy'"
+                  reward: "25 XP"
+                - objective: "For helping the trader fend off the guard"
+                  reward: "25  XP"
+            - description: "Encounter resolved via combat (if hostility triggered)."
+              rewards:
+                - objective: "For fighting off your accusers"
+                  reward: "25 XP"
+    - title: "The Bayou Freedom  Fighters (Faction Interaction & System Engagement)"
+      steps:
+        - description: "Follow the path south. Cross an authenticated OBJ_Wooden_Bridge (a functional structure over ENV_Brackish_Inlet). Continue south to find LOC_ Gustfields_Landing_Signpost (an authenticated object with functional identification properties, reflecting 1970s aesthetic). Navigate further northeast through dense marshland (environmental constraint on movement)."
+          entities_involved:
+            - name: "OBJ_ Wooden_Bridge"
+              role: "Traversal Obstacle/Structure"
+              functional_properties_activated:
+                - "FUNC-OBJECT-03: Span capability"
+            - name: "ENV_Brackish_Inlet"
+               role: "Environmental Constraint"
+            - name: "LOC_Gustfields_Landing_Signpost"
+              role: "Landmark/Identifier"
+              functional_properties_activated:
+                - "FUNC-ESTHETIC -01: 1970s Design"
+            - name: "ENV_Dense_Marshland"
+              role: "Environmental Constraint"
+              functional_properties_activated:
+                - "Property: Const rained movement"
+          player_actions:
+            - name: "Navigate environment"
+          outcomes: []
+        - description: "Discover the hidden entrance to the faction's location (authenticated as concealed, potentially requiring SK L-PLAYER-PERCEPTION-01 to find). Note the LOC_Bayou_Freedom_Fighters_Signpost (an authenticated object whose functional purpose might be misdirection or identification)."
+          entities_involved:
+             - name: "LOC_Bayou_Freedom_Fighters_Den"
+              role: "Location (Hidden)"
+              functional_properties_activated:
+                - "Property: Concealment"
+            - name:  "LOC_Bayou_Freedom_Fighters_Signpost"
+              role: "Object (Potential Misdirection/Identifier)"
+          player_actions:
+            - name: "Seek entrance"
+              functional_properties_used:
+                -  "SKL-PLAYER-PERCEPTION-01: Perception Skill (Potential)"
+          outcomes: []
+        - description: "Initiate interaction with the primary entry control entity: CREATURE_Resistance_Guard (authenticated as a member of the  faction). They possess combat capabilities (SKL-GUARD-01: Firearm Proficiency, SKL-GUARD-02: Swamp Combat Tactics). Your response options engage different functional potentials: 1) ACTION-PLAYER-COMBAT -02: Initiate hostile engagement. 2) ACTION-PLAYER-ABILITY-01: Utilize mental influence capability (ABILITY-PLAYER-AXII-01)."
+          entities_involved:
+            - name: "CRE ATURE_Resistance_Guard"
+              role: "Obstacle"
+              functional_properties_activated:
+                - "SKL-GUARD-01: Firearm Proficiency"
+                - "SKL-GUARD-0 2: Swamp Combat Tactics"
+          player_actions:
+            - name: "Initiate interaction"
+              functional_properties_used:
+                - "ACTION-PLAYER-COMBAT-02"
+                - "ACTION-PLAYER- ABILITY-01"
+                - "ABILITY-PLAYER-AXII-01"
+          outcomes:
+            - description: "Gain functional access to the hideout."
+              rewards:
+                - objective: "For using  Axii on the Bayou Freedom Fighter"
+                  reward: "25 XP"
+        - description: "Locate and engage with CHAR_Vernon_Roche and CHAR_Ves (authenticated as key faction entities). Their presence signifies their continued functional roles  within the resistance. Engage in conversational protocols to gain INFO_FactionHistory and INFO_WorldState (regarding the fall of the Old Order and the rise of the oligarchies)."
+          entities_involved:
+            - name: "CHAR _Vernon_Roche"
+              role: "Faction Leader/Information Source"
+              functional_properties_activated:
+                - "FUNC-CHARACTER-01: Leadership Role"
+                - "FUNC-CHARACTER-02:  Information Relay"
+            - name: "CHAR_Ves"
+              role: "Faction Member/Information Source"
+              functional_properties_activated:
+                - "FUNC-CHARACTER-02: Information Relay"
+             - name: "INFO_FactionHistory"
+              role: "Information Type"
+            - name: "INFO_WorldState"
+              role: "Information Type"
+          player_actions:
+            - name: " Engage in conversation protocols"
+          outcomes:
+            - description: "Gain historical and current world state information."
+        - description: "Challenge CHAR_Vernon_Roche to a game of Bog Bones (authenticated as a playable game system  within the world). Vernon utilizes a specific deck type (e.g., 'Swamp Folk' or 'Resistance') with defined functional card properties (OBJ_BogBonesCard_AlligatorQueen, OBJ_BogBonesCard_ VernonRoche, etc. - each with unique rule-authenticated capabilities like boosting units, specific leader abilities, decoy mechanics). Engaging and winning this game system (ACTION-PLAYER-BOGBONES-01) requires applying strategic SK L-PLAYER-BOGBONES-01."
+          entities_involved:
+            - name: "CHAR_Vernon_Roche"
+              role: "Game Opponent"
+              functional_properties_activated:
+                - " FUNC-CHARACTER-03: Game Playing Capability"
+                - "OBJ_BogBonesCard_Collection: Authenticated Card Properties"
+            - name: "SYSTEM_Bog_Bones"
+              role: "Game System "
+              functional_properties_activated:
+                - "Property: Playable ruleset"
+          player_actions:
+            - name: "Challenge to game"
+            - name: "Engage in Bog Bones system "
+              functional_properties_used:
+                - "ACTION-PLAYER-BOGBONES-01: Game Play Action"
+                - "SKL-PLAYER-BOGBONES-01: Strategic Skill "
+          outcomes:
+            - description: "Successfully defeat Vernon Roche in Bog Bones."
+              rewards:
+                - objective: "For defeating Vernon Roche at Bog Bones"
+                  reward: "25 XP"
+                   item_reward: "OBJ_BogBonesCard_Ves_BayouBrawler"
+                - item_reward: "OBJ_BogBonesCard_Ves_BayouBrawler"
+                  description: "Authenticated functional game piece  with specific in-game properties."
+        - description: "Upon completion of the Bog Bones game, CHAR_Vernon_Roche will authenticate the existence of another skilled player, CHAR_Lambert (authenticated fellow operative/investigator). Engaging CHAR _Lambert in a game of Bog Bones is linked to advancing his associated quest protocol, which requires navigating to a geographically distinct and functionally hazardous location (e.g., deep haunted marshes - potential ENV_Haunted_Zone with CREATURE_SwampWitches  - authenticated entity types with unique capabilities, or blighted plains - potential ENV_Blighted_Zone with associated hazards). This signals a current temporal limitation (quest requires future progression). The primary quest objective (locating Dandelion) remains,  and focus is functionally redirected back to that goal."
+          entities_involved:
+            - name: "CHAR_Vernon_Roche"
+              role: "Information Source (Future Quest Hook)"
+            - name: "CHAR_ Lambert"
+              role: "Future Target/Quest Giver"
+              functional_properties_activated:
+                - "FUNC-CHARACTER-03: Game Playing Capability"
+            - name: "ENV_Haunted_Zone /  ENV_Blighted_Zone"
+              role: "Future Location (Constraint/Hazard)"
+            - name: "CREATURE_SwampWitches"
+              role: "Future Entity Type (Potential Hazard/Interaction)"
+               functional_properties_activated:
+                - "FUNC-CREATURE-03: Unique Capabilities"
+          player_actions: []
+          outcomes:
+            - description: "Receive information about a future quest opportunity."
+```

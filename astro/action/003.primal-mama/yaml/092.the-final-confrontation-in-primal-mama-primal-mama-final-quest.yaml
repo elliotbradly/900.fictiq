@@ -1,0 +1,328 @@
+```yaml
+# Story World Codex: Entity Functional Profile Protocol - Primal Mama (Quest Events Extract)
+# Based on Doležel's Heterocosmica III.B.II.B (Functional Properties) -  Recontextualizing Quest Data
+
+world: "Primal Mama"
+codex_version: "0.2 - Functional Definitions (Quest Extract)"
+last_updated: "[Current Date]"
+lead_architect_s: "[Your Name /  Studio Name]"
+
+introduction: "This document applies the Entity Functional Profile Protocol to the events described in 'The Final Confrontation' quest sequence within the Primal Mama heterocosm (as recontextualized from the original quest text). It  extracts and defines the functional properties of key entities—their demonstrated capabilities, limitations, vulnerabilities, and operational constraints—as revealed through their actions and interactions in this specific narrative passage. This adheres to Doležel's principle of textual authentication, grounding  these functional definitions in the provided quest description.\n\nNote: These profiles are based only on the information revealed in the referenced quest text and the general Primal Mama Codex concepts, and may not represent the full functional scope of these entities." 
+
+entities:
+  CHAR_Geralt_QuestEvents:
+    name: "Geralt (as depicted in Final Quest)"
+    type: "Person"
+    authentication_source: "Recontextualized Final  Quest Text (YAML Source), Primal Mama World Codex (General Concepts)"
+    functional_properties_bundle:
+      core_function_purpose:
+        - "- Primary Role: Protagonist navigating core conflict, confronting major antagonists."
+        - "- Secondary  Role(s): Combatant against specific threats, information recipient."
+      capabilities_powers:
+        - id: "FUNC-GER-01"
+          name: "Combat Prowess (Swamp Strider)"
+           description: "High proficiency in physical combat using Fast Attacks, Strong Attacks, Dodging, and Rolling; utilizes a specific \"Swamp Strider\" combat style effective against key antagonists."
+          authentication: "Demonstrated repeatedly in boss  fight descriptions."
+          limits_nuances: "Effectiveness varies by opponent; requires player input."
+        - id: "FUNC-GER-02"
+          name: "Energy Shield Casting"
+          description: " Can generate a protective shield (Quen Equivalent) to mitigate incoming damage."
+          authentication: "Recommended as a tactic against Boss Hoggins and Moreau Jr."
+          limits_nuances: "Effectiveness against specific attack types (decay , bio-pulse) may vary; requires resource/energy (implied)."
+        - id: "FUNC-GER-03"
+          name: "Potion Consumption (Bio-Stim)"
+          description: "Can consume  specific alchemical preparations (\"Bio-Stim\" like High-Velocity Gumbo) to gain combat advantages (e.g., Thunderbolt effect - enhanced attack power)."
+          authentication: "Recommended tactic before challenging Moreau Jr."
+          limits_nuances: "Pot ions are consumables; effects are temporary."
+      acquired_skills_expertise:
+        - id: "SKL-GER-01"
+          name: "Environmental Navigation (Swamp/Sludge)"
+          proficiency_ level: "High"
+          authentication: "Navigates complex environment (swimming/poling sludge, running across submerged structures, climbing banks) effectively."
+        - id: "SKL-GER-02"
+           name: "Information Gathering (Testimony)"
+          proficiency_level: "Competent"
+          authentication: "Receives and understands critical information revealed by dying antagonist (Boss Hoggins)."
+      inabilities_lack_of _function:
+        - id: "INAB-GER-01"
+          description: "Cannot prevent being teleported/bio-phased by antagonists (Moreau Jr., Hoggins)."
+          authentication: "More au Jr. and Hoggins actively move the combat area."
+          narrative_function: "" # No explicit narrative function described for this inability in the text
+        - id: "INAB-GER-02"
+          description: " Cannot immediately defeat constantly spawning lower-level threats (Mutated Hounds, Solar-Drained Gators) in specific locations; must prioritize objective."
+          authentication: "Explicitly stated \"no point in fighting them all\"."
+          narrative_ function: "" # No explicit narrative function described for this inability in the text
+      vulnerabilities_weaknesses:
+        - id: "VULN-GER-01"
+          description: "Susceptible to slowing  effects from opponent attacks (ice blasts, swamp gas)."
+          authentication: "Described effect of Moreau Jr.'s attacks."
+          narrative_function: "Creates personal risk during investigations, potential weakness exploit." # Reusing note  from source protocol
+        - id: "VULN-GER-02"
+          description: "Takes decay damage when exposed to the intensifying Miasma Bleed."
+          authentication: "Explicitly stated need to stay near Sylvie' s barrier."
+          narrative_function: "" # No explicit narrative function described for this vulnerability in the text
+        - id: "VULN-GER-03"
+          description: "Can be stranded by powerful  magic/environmental control (Sylvie's actions at the final destination)."
+          authentication: "Description of being left at the source of the Bleed."
+          narrative_function: "" # No explicit narrative function described for this  vulnerability in the text
+      costs_dependencies_constraints:
+        - id: "COST-GER-01"
+          applies_to: "Combat/Survival"
+          description: "Requires consumption of consumables (Bio -Stims, potion energy) for enhanced performance or protection (Energy Shield implies cost)."
+          authentication: "Recommendation to use potions, mention of Energy Shield."
+          narrative_function: "Creates resource management challenge, limits usage duration, adds procedural element /time pressure." # Reusing note from source protocol
+        - id: "DEPEND-GER-01"
+          applies_to: "Navigation/Progression"
+          description: "Must follow specific entities (Y ennefer/Sylvie) to progress through environmental hazards."
+          authentication: "Repeated instruction to \"follow Yennefer/Sylvie\"."
+          narrative_function: "" # No explicit narrative function described for this constraint  in the text
+        - id: "OPCON-GER-01"
+          applies_to: "Environmental Movement"
+          description: "Movement methods are constrained by the swamp/sludge environment (swimming,  poling, navigating banks/submerged structures)."
+          authentication: "Description of physical movement."
+          narrative_function: "" # No explicit narrative function described for this constraint in the text
+    functional_profile_summary:
+      core_ functional_identity: "Geralt functions as the primary agent of confrontation, whose core capabilities revolve around adaptable combat and environmental traversal, constantly challenged by environmental hazards and antagonist abilities, relying on learned skills and consumables for advantage."
+      key _narrative_functions_served: "Drives antagonist confrontations, experiences environmental obstacles, receives key plot information."
+      relationship_to_alethic_modality: "His abilities operate within the established physical and bio-mag ical laws of Primal Mama, pushing against threats like bio-phasing and Miasma but ultimately susceptible to them without specific countermeasures."
+      key_functional_tensions_trade_offs: "His combat strength vs. environmental /magical vulnerabilities; reliance on consumables/support characters vs. independent action."
+
+  CHAR_Ciri_ErpenthropeUnleashed_QuestEvents:
+    name: "Ciri (Erpenthrope Form,  Final Quest)"
+    type: "Person (Transformed)"
+    authentication_source: "Recontextualized Final Quest Text (YAML Source), Primal Mama World Codex (Erpenthrope concept)"
+    functional_properties _bundle:
+      core_function_purpose:
+        - "- Primary Role: High-power combatant capable of rapid elimination of multiple foes; confronts specific, significant threats (Moreau Jr., source of Miasma Bleed )."
+      capabilities_powers:
+        - id: "FUNC-CIRI-01"
+          name: "Erpenthrope Combat"
+          description: "Possesses enhanced physical combat prowess, utilizing Fast Attacks effectively against boss  targets."
+          authentication: "Described tactic against Dr. Moreau Jr."
+          limits_nuances: "Specific details of \"beast form\" combat not fully detailed in text beyond effectiveness."
+        - id: "FUNC-CIRI -02"
+          name: "Massacre/Rapid Area Elimination"
+          description: "Capable of quickly and effectively eliminating large numbers of lesser foes in a designated area."
+          authentication: "Instruction to \"massacre all that  stands in your way\"."
+          limits_nuances: "" # No explicit limits in text
+        - id: "FUNC-CIRI-03"
+          name: "Bio-Phasing/Teleportation"
+           description: "Appears to possess the ability to rapidly move or phase, mirroring or counteracting Moreau Jr.'s similar ability during their fight."
+          authentication: "Described tactic of dodging until Moreau Jr. \"bio-phases  or reappears\"."
+          limits_nuances: "Usage conditions, range, or costs are not specified in this text."
+        - id: "FUNC-CIRI-04"
+          name: "Confront  Miasma Source"
+          description: "Possesses the unique capability to directly interact with and potentially resolve the source of the Calamity's Miasma Bleed."
+          authentication: "Explicitly stated role at the  end of the quest."
+          limits_nuances: "Mechanism of interaction/resolution not detailed."
+      acquired_skills_expertise:
+        - id: "SKL-CIRI-01"
+          name:  "Environmental Navigation (Hazardous)"
+          proficiency_level: "High"
+          authentication: "Navigates areas distorted by Miasma and drops from ledges to reach targets."
+      inabilities_lack_of_function: []  # None explicitly detailed for this form within the quest text
+      vulnerabilities_weaknesses: [] # None explicitly detailed for this form within the quest text
+      costs_dependencies_constraints:
+        - id: "DEPEND-CIRI-01 "
+          applies_to: "Final Confrontation"
+          description: "Requires reaching a specific location (source of Miasma) to enact final function."
+          authentication: "Must be brought to the final location by  supporting entities/events."
+          narrative_function: "" # No explicit narrative function described for this constraint in the text
+        - id: "OPCON-CIRI-01"
+          applies_to: " Transformation"
+          description: "Her \"unleashed\" state implies transformation, which may have prerequisites or limitations not detailed here but established elsewhere for Erpenthropes."
+          authentication: "Reference to \"Super-Ciri\" and \" Erpenthrope Unleashed\"."
+          narrative_function: "" # No explicit narrative function described for this constraint in the text
+    functional_profile_summary:
+      core_functional_identity: "Ciri,  in her unleashed Erpenthrope form, functions as a highly mobile, devastating force capable of clearing paths and directly engaging powerful, evasive enemies, culminating in her unique ability to interact with the core environmental threat."
+      key_narr ative_functions_served: "Provides moments of overwhelming power fantasy, overcomes significant obstacles rapidly, acts as the ultimate agent of resolution for the main conflict."
+      relationship_to_alethic_modality: "Her abilities,  particularly bio-phasing and Miasma interaction, push the boundaries of standard physical possibility, aligning with the established supernatural/biological capabilities of Erpenthropes within the world."
+      key_functional_tensions_trade_ offs: "Her immense power is framed as a specific state (\"unleashed\"), implying it's not her default, suggesting potential costs or limitations outside this context."
+
+  CHAR_MoreauJr_QuestEvents:
+    name : "Dr. Moreau Jr."
+    type: "Person (Antagonist/Boss)"
+    authentication_source: "Recontextualized Final Quest Text (YAML Source)"
+    functional_properties_bundle:
+      core _function_purpose:
+        - "- Primary Role: Significant antagonist blocking progression; utilizes twisted biotech/bio-magic in combat."
+      capabilities_powers:
+        - id: "FUNC-MOREAU-01"
+           name: "Bio-Phasing/Teleportation"
+          description: "Can rapidly disappear and reappear, creating tactical opportunities and evading attacks."
+          authentication: "Primary combat mechanic described in boss fight."
+          limits _nuances: "Vulnerable upon reappearance (allows Ciri/Geralt to hit him)."
+        - id: "FUNC-MOREAU-02"
+          name: "Bio-Energy/Toxic Projection" 
+          description: "Projects ranged attacks in wave or successive formations (toxic swamp gas blasts, bio-electric arcs)."
+          authentication: "Ranged combat mechanic described."
+          limits_nuances: "Attacks can be dod ged/rolled through; primarily deals damage and slows."
+        - id: "FUNC-MOREAU-03"
+          name: "Creature Summoning"
+          description: "Can summon aggressive mutated creatures (Razor- Maws, Vampire Bunnies) to aid in combat."
+          authentication: "Summons adds during the boss fight."
+          limits_nuances: "Summoned creatures are relatively easy to defeat and are a lower priority than  Moreau Jr. himself once handled."
+      acquired_skills_expertise:
+        - id: "SKL-MOREAU-01"
+          name: "Biotech/Bio-Magic Application (Combat)"
+          proficiency_level: " High"
+          authentication: "Demonstrated mastery of bio-phasing and other bio-infused combat techniques."
+      inabilities_lack_of_function:
+        - id: "INAB-MOREAU-01"
+           description: "Cannot counter or effectively block initial Fast Attacks after bio-phasing/reappearing (against Ciri/Geralt)."
+          authentication: "Exploitable weakness described in strategy."
+          narrative_function : "" # No explicit narrative function described for this inability in the text
+      vulnerabilities_weaknesses:
+        - id: "VULN-MOREAU-01"
+          description: "Vulnerable to Fast  Attacks immediately after bio-phasing or during brief windows after his own attacks."
+          authentication: "Core strategy for defeating him."
+          narrative_function: "" # No explicit narrative function described for this vulnerability in the text
+        - id: " VULN-MOREAU-02"
+          description: "Can be wounded and ultimately defeated through sustained combat."
+          authentication: "Outcome of the boss fight."
+          narrative_function: "" # No explicit narrative  function described for this vulnerability in the text
+      costs_dependencies_constraints:
+        - id: "OPCON-MOREAU-01"
+          applies_to: "Creature Summoning"
+          description:  "Summoning mutated creatures appears to be a specific action taken during the fight, implying it's not continuous or without some internal constraint (like a cooldown or resource cost, though not specified in text)."
+          authentication: "Des cribed as \"summon an Ice Elemental (level thirty)\"." # Kept original text's level reference
+          narrative_function: "" # No explicit narrative function described for this constraint in the text
+    functional_profile_summary:
+       core_functional_identity: "Dr. Moreau Jr. functions as an evasive, ranged combatant who augments his attacks by summoning minor threats, relying on bio-phasing to control distance and making him vulnerable primarily during his recovery  frames."
+      key_narrative_functions_served: "Provides a challenging combat encounter mid-quest, embodies the 'twisted biotech' aspect of the world."
+      relationship_to_alethic_modality: " His bio-phasing ability directly instantiates the world's rules around biological instability or advanced/unstable biotech capable of disrupting physical presence."
+      key_functional_tensions_trade_offs: "His high mobility vs.  vulnerability windows; his ability to summon help vs. the adds being a lesser threat."
+
+  CHAR_BossHoggins_QuestEvents:
+    name: "Bartholomew \"Boss\" Hoggins"
+    type: "Person ( Antagonist/Final Boss)"
+    authentication_source: "Recontextualized Final Quest Text (YAML Source)"
+    functional_properties_bundle:
+      core_function_purpose:
+        - "- Primary Role: Final  antagonist representing the power of the Meat Oligarchy; utilizes advanced 70s-tech suit in combat."
+      capabilities_powers:
+        - id: "FUNC-HOGGINS-01"
+          name:  "Powered Suit Combat"
+          description: "Fights using a powered suit equipped with augmented limbs for powerful melee combos."
+          authentication: "Described combat style."
+          limits_nuances: "Not as relentlessly aggressive as  Moreau Jr.; relies on power and positioning."
+        - id: "FUNC-HOGGINS-02"
+          name: "Bio-Phase/Teleportation (Suit-Assisted)"
+          description: " Can rapidly disappear and reappear via bio-phasing or suit technology, controlling combat location (teleporting Geralt to platform, moving through structural breach)."
+          authentication: "Combat mechanic and escape method."
+          limits_nuances : "Vulnerable during his attack combos (allows Geralt to hit him)."
+        - id: "FUNC-HOGGINS-03"
+          name: "Bio-Mine Deployment"
+          description: "De ploys Bio-Mines that explode with toxic gas or ensnaring bio-matter."
+          authentication: "Ranged hazard deployment."
+          limits_nuances: "Mines are dodgeable; Hoggins is vulnerable while  deploying."
+        - id: "FUNC-HOGGINS-04"
+          name: "Bio-Pulse Ground Slash"
+          description: "Slams the ground (via suit) sending out multiple lines of bio -pulse energy."
+          authentication: "Ranged attack added below 50% health."
+          limits_nuances: "Projectiles are sequential (1, then 3, then 5); can be difficult to dodge especially the final sequence depending  on distance."
+        - id: "FUNC-HOGGINS-05"
+          name: "Information Revelation (Dying)"
+          description: "Reveals critical, unsettling information about the calamity or the Oligarchy  upon defeat."
+          authentication: "Explicitly stated event."
+          limits_nuances: "Information is revealed only after he is mortally wounded."
+      acquired_skills_expertise:
+        - id: "SKL -HOGGINS-01"
+          name: "Powered Suit Operation/Combat"
+          proficiency_level: "High"
+          authentication: "Demonstrated effective use of the suit's combat and movement capabilities." 
+      inabilities_lack_of_function:
+        - id: "INAB-HOGGINS-01"
+          description: "Cannot prevent being knocked out of his attack routines by a well-timed Strong  Attack."
+          authentication: "Core strategy for defeating him."
+          narrative_function: "" # No explicit narrative function described for this inability in the text
+        - id: "INAB-HOGGINS-0 2"
+          description: "Cannot block subsequent attacks immediately after being hit by the core strategy (must reset stance)."
+          authentication: "Warning not to \"get greedy\" after a hit."
+          narrative_function: ""  # No explicit narrative function described for this inability in the text
+      vulnerabilities_weaknesses:
+        - id: "VULN-HOGGINS-01"
+          description: "Vulnerable to Strong  Attacks while he is performing his own attack combos or deploying mines."
+          authentication: "Core strategy for defeating him."
+          narrative_function: "" # No explicit narrative function described for this vulnerability in the text
+        - id : "VULN-HOGGINS-02"
+          description: "Can be wounded and ultimately defeated, forcing him to reveal information and die."
+          authentication: "Outcome of the boss fight."
+          narr ative_function: "" # No explicit narrative function described for this vulnerability in the text
+      costs_dependencies_constraints:
+        - id: "DEPEND-HOGGINS-01"
+          applies_to:  "Combat/Movement"
+          description: "Relies entirely on his powered suit for his combat and movement abilities, implying dependence on its power source and integrity."
+          authentication: "All described functions are tied to the suit."
+           narrative_function: "" # No explicit narrative function described for this constraint in the text
+    functional_profile_summary:
+      core_functional_identity: "Boss Hoggins functions as a powerful, suit-augmented final  combatant who controls the fight's rhythm through bio-phasing and hazardous deployments, vulnerable during his own actions but capable of high-damage output."
+      key_narrative_functions_served: "Represents the physical power  of the Oligarchy, provides the final major combat challenge, serves as the source for last-minute plot revelation."
+      relationship_to_alethic_modality: "His functions instantiate the world's rules around advanced  70s-aesthetic tech (the suit) and bio-modification (bio-mines, bio-pulse energy) integrated into combat."
+      key_functional_tensions_trade_offs: "His immense power vs. predictable  vulnerability windows; his role as the final boss vs. revealing critical information only in defeat."
+
+  CHAR_SylvieLeBlanc_QuestEvents:
+    name: "Sylvie \"The Root\" LeBlanc"
+    type:  "Person (NPC/Guide)"
+    authentication_source: "Recontextualized Final Quest Text (YAML Source)"
+    functional_properties_bundle:
+      core_function_purpose:
+        - "- Primary Role:  Guide and protector through the final environmental hazard (Miasma Bleed)."
+      capabilities_powers:
+        - id: "FUNC-SYLVIE-01"
+          name: "Extraction/Rescue"
+          description : "Can physically remove individuals from dangerous situations."
+          authentication: "Pulls Geralt out near the dying Oligarch."
+          limits_nuances: "" # No explicit limits in text
+        - id: "FUNC- SYLVIE-02"
+          name: "Information/Observation"
+          description: "Can receive information and make insightful observations about key environmental/plot elements (the Miasma Bleed)."
+          authentication: "Talk s to Geralt and makes a troubling observation."
+          limits_nuances: "" # No explicit limits in text
+        - id: "FUNC-SYLVIE-03"
+          name: "Hazardous Environment Guidance "
+          description: "Can navigate through the dangerous Miasma Bleed."
+          authentication: "Leads Geralt through the Miasma."
+          limits_nuances: "Navigation style is difficult to follow (\"riding  like an idiot\" / \"guided by spirits\")."
+        - id: "FUNC-SYLVIE-04"
+          name: "Swamp Ward Casting"
+          description: "Can cast protective magical wards ( swamp magic) offering temporary safety from environmental hazards (Miasma Bleed)."
+          authentication: "Casts barrier at the final destination."
+          limits_nuances: "Ward appears to have limited range, requiring others to  stay close; duration or cost not specified."
+        - id: "FUNC-SYLVIE-05"
+          name: "Strategic Placement/Stranding"
+          description: "Can intentionally (or as a consequence of  magic) leave others in a specific, critical location."
+          authentication: "Strands Geralt at the source of the Miasma Bleed."
+          limits_nuances: "" # No explicit limits in text
+      acquired _skills_expertise:
+        - id: "SKL-SYLVIE-01"
+          name: "Swamp Magic Application"
+          proficiency_level: "High (demonstrated)"
+          authentication: " Successfully casts protective ward."
+      inabilities_lack_of_function:
+        - id: "INAB-SYLVIE-01"
+          description: "Does not appear to directly participate in combat against major antagonists  (Moreau Jr., Hoggins, or the source itself)."
+          authentication: "Role is primarily guiding and supporting Geralt/Ciri."
+          narrative_function: "" # No explicit narrative function described for this inability in  the text
+      vulnerabilities_weaknesses: [] # None explicitly detailed in the quest text.
+      costs_dependencies_constraints:
+        - id: "OPCON-SYLVIE-01"
+          applies_to : "Hazard Guidance"
+          description: "Her navigation methods are unpredictable or unconventional, making following her difficult."
+          authentication: "Description of her riding/guiding style."
+          narrative_function: "" # No explicit  narrative function described for this constraint in the text
+        - id: "OPCON-SYLVIE-02"
+          applies_to: "Swamp Ward"
+          description: "The protective ward requires proximity to  function."
+          authentication: "Instruction to \"stay close\"."
+          narrative_function: "" # No explicit narrative function described for this constraint in the text
+    functional_profile_summary:
+      core_functional_ identity: "Sylvie functions as a crucial narrative and environmental guide whose capabilities are centered on navigating and mitigating hazards through unique knowledge and swamp magic, though her methods can be unpredictable."
+      key_narrative_functions_served: " Facilitates movement through the final zone, provides exposition/context on the Miasma, enables the final confrontation by creating a safe zone."
+      relationship_to_alethic_modality: "Her swamp magic and navigation directly authenticate the  existence and practical application of such esoteric abilities within Primal Mama, particularly in countering environmental threats."
+      key_functional_tensions_trade_offs: "Her vital protective abilities vs. her potentially frustrating or unpredictable guidance style; her  power to protect vs. her apparent inability/unwillingness to engage in direct combat."
+
+# Conclusion section from original markdown is descriptive text, not structural YAML data.
+# It's included here as a top-level comment or  descriptive key if desired, but not as a structured entity.
+# conclusion: "This application of the protocol demonstrates how the actions and events of the \"The Final Confrontation\" quest sequence implicitly authenticate and define the functional properties of the involved entities within the  Primal Mama heterocosm. By extracting these demonstrated capabilities and limitations, we reinforce the world's internal logic, ensuring that how entities behave in this crucial narrative moment is consistent with their established (or newly revealed) potential for action and  interaction within the unique, bio-punk Southern Gothic landscape.\n\nFuture functional profiles for these entities should incorporate this authenticated quest behavior alongside other sources from the Primal Mama Codex."
+```
