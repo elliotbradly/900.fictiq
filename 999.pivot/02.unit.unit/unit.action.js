@@ -44,6 +44,15 @@ class ListUnit {
 }
 exports.ListUnit = ListUnit;
 
+exports.SUBLIST_UNIT = "[Code action] Sublist Unit";
+class SublistUnit {
+    constructor(bale) {
+        this.bale = bale;
+        this.type = exports.SUBLIST_UNIT;
+    }
+}
+exports.SublistUnit = SublistUnit;
+
 exports.STACK_UNIT = "[Code action] Stack Unit";
 class StackUnit {
     constructor(bale) {
@@ -62,4 +71,14 @@ class ReplaceUnit {
     }
 }
 exports.ReplaceUnit = ReplaceUnit;
+
+
+exports.FILTER_UNIT = "[Replace action] Filter Unit";
+class FilterUnit {
+    constructor(bale) {
+        this.bale = bale;
+        this.type = exports.FILTER_UNIT;
+    }
+}
+exports.FilterUnit = FilterUnit;
 //# sourceMappingURL=unit.action.js.map

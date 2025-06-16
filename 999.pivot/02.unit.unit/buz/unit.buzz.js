@@ -233,6 +233,25 @@ const listUnit = (cpy, bal, ste) => {
 };
 exports.listUnit = listUnit;
 
+const sublistUnit = (cpy, bal, ste) => {
+
+    var path = '../' + bal.src + '/' + bal.idx;
+
+    var option = FS.pathExistsSync(path)
+
+    if (option == true) {
+        var list = FS.readdirSync('../' + bal.src + '/' + bal.idx);
+        var lst = list.filter((e) => { return e.includes('.unit') == true; });
+        bal.slv({ untBit: { idx: "sublist-unit", lst, val: 1 } });
+        return cpy;
+    }
+
+    bal.slv({ untBit: { idx: "sublist-unit", lst, val: 0 } });
+    return cpy;
+
+};
+exports.sublistUnit = sublistUnit;
+
 const stackUnit = (cpy, bal, ste) => {
 
     var list = FS.readdirSync('../' + bal.src + '/');
@@ -248,6 +267,22 @@ const stackUnit = (cpy, bal, ste) => {
 
 };
 exports.stackUnit = stackUnit;
+
+const filterUnit = (cpy, bal, ste) => {
+
+    var list = FS.readdirSync('../' + bal.src + '/');
+    // The regex /^\d{3}\.[a-zA-Z]+$/ matches strings that:
+    // ^        - start at the beginning
+    // \d{3}    - have exactly three digits
+    // \.       - followed by a literal dot
+    // [a-zA-Z]+ - followed by one or more letters
+    // $        - and end immediately after
+    const lst = list.filter(fileName => /^\d{3}\.[a-zA-Z]+$/.test(fileName));
+    bal.slv({ untBit: { idx: "filter-unit", lst, val: 0 } });
+    return cpy;
+
+};
+exports.filterUnit = filterUnit;
 
 
 const replaceUnit = async (cpy, bal, ste) => {
