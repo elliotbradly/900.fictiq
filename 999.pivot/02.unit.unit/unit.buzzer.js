@@ -13,4 +13,8 @@ var unit_buzz_5 = require("./buz/unit.buzz");
 Object.defineProperty(exports, "listUnit", { enumerable: true, get: function () { return unit_buzz_5.listUnit; } });
 var unit_buzz_6 = require("./buz/unit.buzz");
 Object.defineProperty(exports, "replaceUnit", { enumerable: true, get: function () { return unit_buzz_6.replaceUnit; } });
+var unit_buzz_7 = require("./buz/unit.buzz");
+Object.defineProperty(exports, "stackUnit", { enumerable: true, get: function () { return unit_buzz_7.stackUnit; } });
+
+
 //# sourceMappingURL=unit.buzzer.js.map

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ReplaceUnit = exports.REPLACE_UNIT = exports.ListUnit = exports.LIST_UNIT = exports.CodeUnit = exports.CODE_UNIT = exports.UpdateUnit = exports.UPDATE_UNIT = exports.CreateUnit = exports.CREATE_UNIT = exports.InitUnit = exports.INIT_UNIT = void 0;
+exports.ReplaceUnit = exports.REPLACE_UNIT = exports.ListUnit = exports.LIST_UNIT = exports.StackUnit = exports.STACK_UNIT = exports.CodeUnit = exports.CODE_UNIT = exports.UpdateUnit = exports.UPDATE_UNIT = exports.CreateUnit = exports.CREATE_UNIT = exports.InitUnit = exports.INIT_UNIT = void 0;
 // Unit actions
 exports.INIT_UNIT = "[Unit action] Init Unit";
 class InitUnit {
@@ -34,6 +34,7 @@ class CodeUnit {
     }
 }
 exports.CodeUnit = CodeUnit;
+
 exports.LIST_UNIT = "[Code action] List Unit";
 class ListUnit {
     constructor(bale) {
@@ -42,6 +43,17 @@ class ListUnit {
     }
 }
 exports.ListUnit = ListUnit;
+
+exports.STACK_UNIT = "[Code action] Stack Unit";
+class StackUnit {
+    constructor(bale) {
+        this.bale = bale;
+        this.type = exports.STACK_UNIT;
+    }
+}
+exports.StackUnit = StackUnit;
+
+
 exports.REPLACE_UNIT = "[Replace action] Replace Unit";
 class ReplaceUnit {
     constructor(bale) {
