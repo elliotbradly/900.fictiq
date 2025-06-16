@@ -10,19 +10,29 @@ const initUnit = (cpy, bal, ste) => {
 exports.initUnit = initUnit;
 const updateUnit = async (cpy, bal, ste) => {
 
-    debugger
+    var dir = bal.src;
 
+    if ( bal.sub != null ){
 
+        dir = bal.src;
+        bal.src = bal.idx;
+        bal.idx = bal.sub;
+
+    }
 
     var bit;
     var root = bal.idx.split('.')[1];
     var rootUpper = root.charAt(0).toUpperCase() + root.slice(1);
     var nom = bal.dat;
     var nomUpper = nom.charAt(0).toUpperCase() + nom.slice(1);
-    var buzzFile = '../' + bal.src + '/' + bal.src + '/' + bal.idx + '/buz/' + root + '.buzz.ts';
-    var buzzerFile = '../' + bal.src + '/' + bal.src + '/' + bal.idx + '/' + root + '.buzzer.ts';
-    var actionFile = '../' + bal.src + '/' + bal.src + '/' + bal.idx + '/' + root + '.action.ts';
-    var reduceFile = '../' + bal.src + '/' + bal.src + '/' + bal.idx + '/' + root + '.reduce.ts';
+
+    var buzzFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/buz/' + root + '.buzz.ts';
+    var buzzerFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/' + root + '.buzzer.ts';
+    var actionFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/' + root + '.action.ts';
+    var reduceFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/' + root + '.reduce.ts';
+
+    
+    
     var existBuzz = FS.existsSync(buzzFile);
     var existBuzzer = FS.existsSync(buzzerFile);
     var existAction = FS.existsSync(actionFile);
