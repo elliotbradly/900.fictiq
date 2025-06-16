@@ -31,8 +31,6 @@ const updateUnit = async (cpy, bal, ste) => {
     var actionFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/' + root + '.action.ts';
     var reduceFile = '../' + dir + '/' + bal.src + '/' + bal.idx + '/' + root + '.reduce.ts';
 
-    
-    
     var existBuzz = FS.existsSync(buzzFile);
     var existBuzzer = FS.existsSync(buzzerFile);
     var existAction = FS.existsSync(actionFile);
